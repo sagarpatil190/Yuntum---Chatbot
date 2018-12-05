@@ -1,0 +1,362 @@
+@charset "ISO-8859-1";
+/* YUNTUM PAGE */
+
+
+
+
+
+
+
+/* PAGE LOAD ANIMATION CSS */
+
+#loadText {
+  position: absolute;
+  left: 37%;
+  top: 30%;
+  font-family: Century Gothic;
+  font-size: 24px;
+  color: #272727;
+  display: block;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  margin: -75px 0 0 -75px;
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid purple;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { opacity:0 } 
+  to {  opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{  opacity:0 } 
+  to{ opacity:1 }
+}
+
+
+
+/* MAIN PAGE SECTION STARTS */
+
+
+
+
+
+
+/* BACKGROUND UI CSS */
+
+
+h1,h2,h3,h4,h5 {
+	font-family: Montserrat;
+	font-weight: bold;
+}
+body {
+	font-family: Open Sans;
+	font-size:14px;
+	background-color: #fafafa;
+	
+	
+	/* background: linear-gradient(to right,  rgba(144,0,167,0.075), rgba(255,255,255,1)); */
+	
+}
+
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: purple;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+
+
+
+.navbar {
+	height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #20B2AA;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: white;
+}
+
+.navbar a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white ;
+    display: block;
+}
+
+.navbar a:hover {
+	color: white;
+}
+
+.navbar a:active {
+	color: black;
+}
+
+.navbar h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+#dipa {
+	style="margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 300px;
+}
+
+#dipa a {
+	font-family: Calibri;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+
+.sidenav {
+	height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: white;
+    transition: 0.5s;
+	display:none;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: white ;
+    display: block;
+	width:100%;
+    outline: none;
+    cursor: pointer;
+	background-color: inherit;
+    border:none;
+}
+
+
+.dropdown-btn {
+	
+    text-decoration: none;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: white ;
+    display: block;
+	
+	left: 0 px;
+    outline: none;
+    cursor: pointer;
+	background-color: inherit;
+    border:none;
+}
+
+.sidenav a:hover {
+	color: white;
+}
+
+.sidenav a:active {
+	color: black;
+}
+
+.sidenav .dropdownLink {
+	font-weight: normal;
+	font-size: 12px;
+}
+.sidenav .closebtn {
+    position: absolute;
+    text-align: right;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+.content {
+	margin-left:340px;
+	margin-right:40px;
+	margin-bottom: 100px;
+}
+
+
+#showcase {
+	margin-top:46px;
+	text-align: center;
+}
+
+#showcase p{
+	font-size: 16px;
+}
+
+#heading b{
+	font-family: Arial; 
+	font-weight: 1000; 
+	font-size: 40px;
+}
+
+#subheading {
+	font-size: 24px;
+}
+
+
+/* Main content */
+.main {
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 16px; /* Increased text to enable scrolling */
+  padding: 8px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: purple;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  background-color: inherit;
+  padding-left: 8px;
+  height: 0;
+  overflow-y: hidden;
+  transition: 0.2s;
+}
+
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+  transition: 0.5s;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 10% auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h3 {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 0;
+  color: #333;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #003E4F;
+}
+
+.popup .content_About {
+  height: 80%;
+  background-color: grey;
+  min-height: 300px;
+}
+
+.popup .video {
+	height: 80%;
+	width:  100%;
+}

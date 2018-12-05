@@ -1,0 +1,27 @@
+doctype html
+html
+	head
+		link(rel="stylesheet" type="text/css" href="../login.css")
+		link(rel="shortcut icon" href="favicon.ico" type="image/x-icon")
+		title Login to Ted
+	body
+		div.modal(id="myModal")
+			div.modal-content
+				div.welcome TED - Your Personal Buddy...
+				p(Style="font-size: 22px;font-weight: 700;") ASK. LEARN. GROW.
+					
+				div.login
+					form(id="sendMessage" name="sendMessage" action="/chat" method="post")
+						input(class="id" type="text" placeholder="Enter Your BoaT ID" id="username" name="username")
+						br
+						br
+						span= Error
+						br
+						br
+						input.submit(type="submit" value="Proceed")
+				div.tooltip Don't know your BoaT ID?
+					span.tooltiptext To find your BoaT ID click on below link and Enter your EIN/UIN in the "Search for" box and press Return/Enter key. Your BoaT ID will be shown in the Contact Details.
+						a(href="http://directory.intra.bt.com/" target="_blank") Click Here.
+					
+						
+					

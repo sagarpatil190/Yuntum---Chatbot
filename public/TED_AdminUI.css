@@ -1,0 +1,81 @@
+@CHARSET "ISO-8859-1";
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+	background: linear-gradient(#F3FCFF , #C1F5FF);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	overflow: hidden;
+}
+
+.header {
+	font-family: Raleway, Arial, sans-serif;
+	color: white;
+	background-color: #003E4F;
+	overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+    height: 75px;
+    text-align: center;
+    padding: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header span {
+	font-family: Raleway, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	float: left;
+}
+
+.header h3 {
+	font-family: Montserrat, Arial;
+	color: white;
+	font-size: 36px;
+	margin: 0;
+	display: inline-block;
+	float: left;
+}
+
+.signout {
+	background-color: #003E4F;
+	height: 50px;
+	top: 0;
+	font-family: Raleway, Arial, sans-serif;
+	color: white;
+	font-size: 16px;
+	float: right;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	float: right;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+form {
+	display: inline;
+}
+
+
+.chart{
+	margin: 10% auto;
+	width: 80%;
+	height: 500px;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Raleway, Arial, sans-serif;
+	padding: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,18 @@
+doctype html
+html
+	head
+		meta(charset="ISO-8859-1")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		link(href="https://fonts.googleapis.com/css?family=Raleway:normal,100,200" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Montserrat:500,800" rel="stylesheet")
+		link(rel="stylesheet" type="text/css" href="TED_AdminUI.css")
+		title TED Admin Panel
+	body
+		div(class="header")
+			div(class="wrapper")
+				h3 TED
+				span &nbsp;ADMIN
+				a(class="signout" href="feedback.csv") Download Report File
+				a(class="signout" href="undefined_questions.txt" type="text/plain" download) Download Undefined Questions
+		div(id="chart" class="chart")
+			span TED : Feedback Chart

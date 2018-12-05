@@ -1,0 +1,79 @@
+doctype html
+html
+	head
+		link(rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+		link(rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+		link(rel="stylesheet" href="../Copyofstyle.css")
+		link(rel="stylesheet" href="../style.css")
+		link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans")
+		link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat")
+		link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+		link(rel="shortcut icon" href="favicon.ico" type="image/x-icon")
+		meta(http-equiv="X-UA-Compatible" content="IE=9")
+		meta(http-equiv="X-UA-Compatible" content="IE=10")
+		title #{botName}
+	body
+		div(style="display: block;"  id="myDiv" class="animate-bottom")
+			div
+				div(style="margin-left:340px;margin-right:40px;margin-bottom: 100px;")
+					div(style="margin-top:46px; text-align: center;" id="showcase")
+						h1(style="font-size: 35px ; font-family: initial; !important;") Got a question about Training?
+							p(style="font-size: 36px; color:#FF5733") Ask #{botName}
+					div(class="main-section" id="mainSec")
+						div(class="row border-chat")
+							div(class="col-md-12 col-sm-12 col-xs-12 first-section")
+								div(class="row")
+									div(class="col-md-8 col-sm-6 col-xs-6 left-first-section")
+										p(Style="color:FF5733") #{botName}
+									div(class="col-md-4 col-sm-6 col-xs-6 right-first-section")
+										a(href="#")
+											i(class="fa fa-clone" aria-hidden="true")
+						div(class="row border-chat")
+							div(class="col-md-12 col-sm-12 col-xs-12 second-section")
+								div(class="chat-section")
+									ul(id="addMessgae")
+						div(class="row border-chat")
+							span(id="serverTyping") #{botName} is typing.....
+							div(class="col-md-12 col-sm-12 col-xs-12 third-section")
+								div(class="text-bar")
+									form(name="sendMessage" id="sendMessage" action="#")
+										input(id = "inputmsg" type="text" placeholder="Write messege" autocomplete="off")
+										button(type="submit" id="send"  class="submitButton" aria-hidden="true") Send
+				div(id="chatIcon" style="cursor: pointer;")
+					div(style="font-size: 24px; margin-left: 50%;")
+						img(src="https://cdn-images-1.medium.com/max/1600/1*fZsdZisozTZbM6AaPQKI4Q.gif" style="width:44%")
+						span(style="position: absolute;margin-left: -24%;margin-top: 0%;padding-top: 15%;") Click Here to Start Conversation...
+				nav(class="navbar" style="width:300px;font-weight:bold;" id="mySidebar")
+					div
+						h3(style="font-family: Montserrat; font-weight: bold; font-size: 26px;")
+							b #{botName}
+						p(style="font-family: Century Gothic; text-align: center;font-weight: normal;color: darkviolet;") ASK. LEARN. GROW.
+					div
+						a(style="cursor:pointer ; " onclick="openNav()") Browse Questions
+						a(style="cursor:pointer ;"  href="#popup" id="show_About") About US
+						div(id="navBarIcon")
+							img(src="https://cdn-images-1.medium.com/max/1600/1*fZsdZisozTZbM6AaPQKI4Q.gif" style="width:101%; height:50%; margin:25px 0 0 0;")
+						div(id="mySidenav" class="sidenav")
+							h5(style="padding-left: 15%;font-size:18px") Question Categories
+								br
+								br
+								a(href="javascript:void(0)" class="closebtn" onclick="closeNav()") &times;
+								each category in categories
+									br
+									span.dropdown-btn #{category['name']} 
+									div.dropdown-container
+										each question in category.question
+											a.setQuestion.dropdownLink #{question}
+					div(style="margin: 0;padding: 0;overflow: hidden;background-color: #333;position: fixed;bottom: 0;left:0;width: 300px")
+						a(style="font-weight: normal;") Got any other question?
+						
+	div(id="popup" class="overlay")
+		div(class="popup")
+			h3 TED : THE JOURNEY
+			a(id="close_About" class="close" href="#") &times;
+			div(class="content_About")
+				video(class="video" id="#videocontainer" controls)
+					source(src="3D_L0064.MP4" type="video/mp4")
+		script(src='/socket.io/socket.io.js')
+		script(src='../client.js')

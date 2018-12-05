@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<categories>
+	<category>
+		<name>Accessiblity</name>
+		<question>How should I get the Access for BAY 2 and 5?</question>
+		<question>How should I get Room 101 access?</question>
+		<question>How should I get Access for JIRA,WIKI,Citrix or different portals?</question>
+		<question>How should I get the access for Sharepoint?</question>
+		<question>Sharepoint Timesheet filling</question>
+		<question>Login credential for my machine or PC?</question>
+		<question>What are the mandatory trainings for BT after or before onbording the project?</question>
+		<question>How should I install new software on my machine?</question>
+		<question>Different team information for team coordination</question>
+		<question>What are the rules/ethics in BT?</question>
+		<question>Whom should we connect regarding work related issues?</question>
+		<question>What is the project all about?</question>
+		<question>Who are our clients and what do we deliver to our clients?</question>
+		<question>How is the work divided between the teams?</question>
+	</category>
+	<category>
+		<name>Training Video</name>
+		<question>TDD Introduction Video</question>
+	</category>
+	
+	<category>
+		<name>Delivery</name>
+		<question>What is TDC Cycle?</question>
+		<question>What is scope of release?</question>
+		<question>What is ENVIRONMENT PLAN?</question>
+		<question>List of Upcoming Projects</question>
+	</category>
+	
+	
+	<category>
+		<name>URLS</name>
+		<question>Bebanjo Staging URL</question>
+		<question>Bebanjo pre-prod URL</question>
+		<question>UUI VOLE URL</question>
+		<question>UUI VOLD URL</question>
+		<question>Prod URL</question>
+		<question>Voltest URL</question>
+		<question>Gotham URL</question>
+		<question>UUI VOLE URL</question>
+		<question>UUI VOLD URL</question>
+		<question>SPLUNK VOLE IP</question>
+		<question>SPLUNK VOLD IP</question>
+		<question>MPX URL</question>
+		<question>Bebanjo(Staging) URL</question>
+		<question>Bebanjo(Preprod) URL</question>
+		<question>Systest UUI URL</question>
+		<question>StormTest 47</question>
+		<question>StormTest 48,49</question>
+		<question>Jira Link</question>
+		<question>SFG link VOLD</question>
+		<question>SFG link VOLE</question>
+		<question>Epoch Converter URL</question>
+		<question>JSON Validator URL</question>
+		<question>WinSCP VOLD URL</question>
+		<question>WinSCP VOLE URL</question>
+		<question>Splunk Systest URL</question>
+		<question>Systest UUI URL</question>
+		<question>Webtop VOLD URL</question>
+		<question>ALM URLS</question>
+		<question>Sharepoint URL</question>
+		<question>Navmann URL</question>
+		<question>cit2 UUI URL</question>
+		<question>Webtop VOLE</question>
+		<question>Changing names in Storm</question>
+		<question>Perfecto Cloud URL</question>
+		<question>Splunk VOLE URL</question>
+		<question>MPX URL</question>
+		<question>Jira New Link</question>
+		<question>Daily Sanity URL</question>
+		<question>TestRail URL</question>
+		<question>Wiki URL</question>
+		
+		
+		
+		
+		
+		<question>BT Sport Live URL</question>
+		<question>BT Sport Voltest Environment URL</question>
+		<question>BT Sport Gotham Environment URL</question>
+		<question>CMS Tool Voltest URL</question>
+		<question>CMS Tool Gotham URL</question>
+		<question>Forge Tool URL</question>
+		<question>Hockey App URL</question>
+		<question>Voltest Standard Player Version check URL</question>
+		<question>Gotham Standard Player Version check URL</question>
+		<question>Voltest Enhanced Player Version check URL</question>
+		<question>Gotham Enhanced Player Version check URL</question>
+		<question>BT Sport Jira URL</question>
+		<question>Dante Jira URL</question>
+		<question>Voltest SOLR Query URL</question>
+		<question>Gotham SOLR Query URL</question>
+		<question>BTS Home page feed PROD SOLR Query URL</question>
+		<question>BTS Home page feed Voltest SOLR Query URL</question>
+		<question>OneView URL</question>
+		<question>Siteminder Voltest URL</question>
+		<question>Siteminder Gotham URL</question>
+		<question>Voltest Poster URL</question>
+		<question>Gotham Poster URL</question>
+		<question>Voltest User Login ID Creation URL</question>
+		<question>Gotham User Login ID Creation URL</question>
+	</category>
+	
+	<category>
+		<name>TDD</name>
+		<question>What is TDD?</question>
+		<question>When TDD is performed?</question>
+		<question>What all aspects are covered in TDD?</question>
+		<question>Are there skills in particular required to carry out TDD?</question>
+		<question>Why is TDD performed?</question>
+		<question>What are RIA and PRD?</question>
+		<question>What is SPM meeting?</question>
+		<question>How many sprints are there in a release?</question>
+		<question>What are steel thread scenarios?	</question>
+		<question>What all parameters are considered for TDD assessment?</question>
+		<question>What is the difference between TVSP, EDA and RMID?</question>
+		<question>What is Integration Testing?</question>
+		<question>What is difference between Program level and Release level TDD?</question>
+		<question>What is System testing?</question>
+		<question>What are various Environment used for Testing?</question>
+		<question>Which the design documents required for TDD assessment?</question>
+		<question>What is TDD quality score in TDD assessment?</question>
+		<question>What is the use of Jira Portal?</question>
+		<question>What is the use of Wiki Portal?</question>
+		
+	</category>
+
+	<category>
+		<name>Systest</name>
+		<question>How to get access to JIRA, WIKI?</question>
+		<question>How to get access to ROOM 101 and automation VM?</question>
+		<question>What is the typical delivery lifecycle?</question>
+		<question>Which are the major environments in VOSP?</question>
+		<question>What is a Sprint?</question>
+		<question>What is a Release?</question>
+		
+	</category>
+	
+	
+	<category>
+		<name>Digital Apps</name>
+		<question>What is the work of Digital Apps team?</question>
+		<question>What are all the tools/Applications that Digital Apps team use?</question>
+		<question>What are all the test environments which are used in Digital Apps team?</question>
+		<question>How E2E execution is performed in Digital Apps for particular areas?</question>
+		<question>What are steel thread scenarios and why they are performed?</question>
+		<question>What is Perfecto?</question>
+		<question>What is CMS?</question>
+		<question>What is Forge?</question>
+		<question>What is OneView?</question>
+		<question></question>
+	</category>
+	
+	<category>
+		<name>NFT</name>
+		<question>To whom should I report after getting assigned to the NFT team?</question>
+		<question>What is NFT team Structure??</question>
+		<question>How do I receive NFT KT?</question>
+		<question>Which tools we use for performance testing?</question>
+		<question>Where shall I access BT timesheet?</question>
+		<question>How to fill BT timesheet?</question>
+		<question>What are the testing environments used in BT Retail?</question>
+		<question>What is expected from me as a part of NFT team?</question>
+		<question></question>
+		<question></question>
+	</category>
+	
+	
+	<category>
+		<name>Functional Team</name>
+		<question>What is CRB?</question>
+		<question>What is ISP?</question>
+		<question>What is DUG?</question>
+		<question>What is BUP?</question>
+		<question>What is D and P</question>
+		<question>What are On Perm Solution and Cloud Solution? </question>
+		<question>In Live what is Core site and Geo Node?</question>
+		<question>What is Room 101 and why do we need it?</question>
+		<question>What is RMP?</question>
+	</category>
+	
+	<category>
+		<name>Generic</name>
+		<question>Which different tools we use in BT TV?</question>
+		<question>What release methodology is being followed in BT TV?</question>
+		<question>Who are the different stakeholders in TV and what is their role?</question>
+		<question>Who is my line manager?</question>
+		<question>What different test environments we got in BT TV?</question>
+		<question>What other LoBs we got in BT?</question>
+		<question>What is Environment Plan?</question>
+		<question>How is the work divided between the teams?</question>		
+	</category>
+	
+</categories>

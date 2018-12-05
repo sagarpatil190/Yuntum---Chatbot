@@ -1,0 +1,224 @@
+.main-section{
+  width: 625px;
+  position: fixed;
+  right:0px;
+  bottom:-1000px;
+  border:1px solid grey;
+}
+.first-section:hover{
+  cursor: pointer;
+}
+.open-more{
+  bottom:0px;
+  transition:0.75s;
+}
+.border-chat{
+  border:1px solid grey;
+  margin: 0px;
+}
+.first-section{
+   background: #102020;
+}
+.first-section p{
+  
+  color: #20B2AA;
+  padding: 1px 0px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.right-first-section{
+   text-align: right;
+}
+.right-first-section i{
+  color:#fff;
+  font-size: 15px;
+  padding: 12px 3px;
+}
+.right-first-section i:hover{
+  color:#fff;
+}
+.chat-section ul li{
+  list-style: none;
+  margin-top:10px;
+  position: relative;
+}
+.chat-section{
+  overflow-y:scroll;
+  height:475px;
+}
+.chat-section ul{
+  padding: 0px;
+}
+.left-chat img,.right-chat img{
+  /*width:50px;
+  height:50px;
+  float:left; */
+  margin:10px 5px;
+ }
+.right-chat img{
+  float:right;
+}
+.second-section{
+  padding: 0px;
+  margin: 0px;
+  background-color: #F3F3F3;
+  height: 480px;
+}
+.left-chat,.right-chat{
+  /*overflow: hidden;*/
+}
+.left-chat p,.right-chat p{
+  background-color:#20B2AA;
+  padding: 10px;
+  color:#fff;
+  border-radius: 5px; 
+  float:left;
+  width:60%;
+  margin-bottom:20px;
+}
+.left-chat span,.right-chat span{
+  /*position: absolute;*/
+  left:70px;
+  top:60px;
+  color:#B7BCC5;
+}
+
+
+
+.right-chat span{
+  left:45px;
+}
+.right-chat p{
+  float:right;
+  background-color: #2F4F4F;
+  color:#FFFF85;
+}
+
+.left-chat a,.right-chat a {
+    color: #0000A0;
+	
+	display: inline-block;
+	text-overflow: ellipsis;
+  width:100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+.third-section{
+  border-top: 1px solid #EEEEEE;
+}
+.text-bar input{
+  width:90%;
+  margin-left:-15px;
+  padding:10px 10px;
+  border:1px solid #fff;
+}
+.text-bar a i{
+  background-color:#FD8468;
+  color:#fff;
+  width:30px;
+  height:30px;
+  padding:7px 0px;
+  border-radius: 50%;
+  text-align: center;
+}
+/*
+.left-chat:before{
+  content: " ";
+  position:absolute;
+  top:0px;
+  left:55px;
+  bottom:150px;
+  border:15px solid transparent;
+  border-top-color:#FD8468; 
+}
+.right-chat:before{
+  content: " ";
+  position:absolute;
+  top:0px;
+  right:55px;
+  bottom:150px;
+  border:15px solid transparent;
+  border-top-color:#fff; 
+}
+*/
+.submitButton{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+
+.isa_info, .isa_success, .isa_warning, .isa_error {
+margin: 10px 0px;
+padding:12px;
+ 
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.feedback{
+	float: right;
+    margin:-2% 40% 2% 0%;
+    height: 20px;
+    font-family: serif;
+    width: 100%;
+    text-align: right;
+	
+	
+}
+
+#feedbackLike{
+	background:url("../../like.png");
+	 padding:5px 10px;
+	 margin:0 10px 0 0;
+  background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; /*  Safari  */
+    -khtml-background-size: 100% 100%; /*  Konqueror  */
+    -moz-background-size: 100% 100%; /*  Firefox  */
+}	
+
+#feedbackUnLike{
+	background:url("../../dislike.png");
+	padding:5px 10px;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; /*  Safari  */
+    -khtml-background-size: 100% 100%; /*  Konqueror  */
+    -moz-background-size: 100% 100%; /*  Firefox  */
+}
+
+#feedbackLike:hover{
+	background:url("../../likehover.png");
+	 padding:5px 10px;
+	 margin:0 10px 0 0;
+  background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; /*  Safari  */
+    -khtml-background-size: 100% 100%; /*  Konqueror  */
+    -moz-background-size: 100% 100%; /*  Firefox  */
+}
+
+#feedbackUnLike:hover{
+	background:url("../../dislikehover.png");
+	 padding:5px 10px;
+	 background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; /*  Safari  */
+    -khtml-background-size: 100% 100%; /*  Konqueror  */
+    -moz-background-size: 100% 100%; /*  Firefox  */
+}

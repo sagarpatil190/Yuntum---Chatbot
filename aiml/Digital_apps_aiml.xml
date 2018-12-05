@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+      <pattern>*WORK OF DIGITAL APPS TEAM*</pattern>
+      <template>
+	  Digital Apps team are responsible<break/> 
+	  for delivery in E2E for following areas:<break/> 
+		1. Sports App<break/>
+		2. Sports Web<break/>
+		3. BT TV App<break/>
+		4. BT TV Web<break/>
+		5. CCP<break/>
+	  Additionally, they perform execution<break/> 
+	  for the BT TV Purchases App/ Web in Ad-hoc releases<break/>
+
+	  <id>DA1</id>
+	  </template>   
+   </category>
+   
+   <category>
+      <pattern>TOOLS IN DIGITAL APPS</pattern>
+      <template>
+	  Digital Apps team makes<break/> 
+	  use of following tools:<break/> 
+		1. Perfecto: For Web and<break/> 
+		Device Automation Testing<break/>
+		2. CMS: Content Management tool which<break/> 
+		is used to create, update and edit<break/> 
+		the Web/App contents<break/>
+		3. Forge: To create or update<break/> 
+		the DeltaTre IDs for Diva events<break/> 
+		4. OneView: To create different type<break/> 
+		of customers with different subscriptions<break/>
+		5. UUI: Used as user provisioning tool<break/> 
+		for customer creation.<break/>
+		6. Splunk: All the component activity<break/> 
+		logs gets captured here<break/>
+		7. Storm: A tool via which we can access<break/> 
+		our STB (TV) situated at remote location (UK)<break/> 
+		8. Bebanjo: Content publishing tool<break/>
+		9. Jira: used for tracking the scoped in<break/> 
+		stories for the releases and ticket<break/> 
+		raised for defects.<break/>
+		10. Wiki: Single source of information<break/> 
+		for scoped stories for releases and also<break/> 
+		we can find the design document for all<break/> 
+		programs and releases.<break/>
+		11. ALM: For tracking Test Execution<break/> 
+		and defects status<break/>
+		12. MPX: It’s a console where we can<break/> 
+		see all details related to content<break/>
+
+	  <id>DA2</id>
+	  </template>   
+   </category>
+   
+   
+   <category>
+      <pattern>* APPLICATIONS * DIGITAL APPS*</pattern>
+      <template><srai>TOOLS IN DIGITAL APPS</srai></template>   
+	   
+   </category>
+
+   <category>
+      <pattern>* TOOLS * DIGITAL APPS*</pattern>
+      <template><srai>TOOLS IN DIGITAL APPS</srai></template>   
+	 
+   </category>
+   
+   
+   <category>
+      <pattern>*TEST ENVIRONMENTS WHICH ARE USED IN DIGITAL APPS TEAM*</pattern>
+      <template>
+		Environments used by Digital<break/> 
+		Apps team are:<break/>
+		1. Sports App - Voltest,<break/> 
+		Prod Debug.<break/>
+		2. Sports Web - Voltest, Gotham.<break/>
+		3. CCP - Voltest, Gotham.<break/>
+		4. BT TV App - Vol D, Vol E. <break/>
+		5. BT TV Web - Vol D, Vol E.<break/>
+
+	  <id>DA3</id>
+	  </template>   
+   </category>
+   
+   <category>
+      <pattern>*E2E EXECUTION IS PERFORMED*</pattern>
+      <template>
+	  Execution Timeline for each Digital<break/> 
+	  Apps area is as follows:<break/> 
+		1. Sports App - Execution performed in Sprints.<break/>
+		Timelines of each Sprint is 2 weeks, <break/>
+		and each Sprint will have 1 or 2 App<break/>
+		releases including Dot releases.<break/> 
+		2. Sports Web - Every month there will<break/>
+		be a new Dante release. Execution timelines<break/> 
+		will be for 1 to 2 weeks. And also there<break/> 
+		will be Ad-hoc releases in between.<break/>
+		3. CCP - For this there will be Ad-hoc releases<break/> 
+		Timelines depends on the Releases.<break/>
+		4. BT TV App and Web - 1 TV App release in<break/>
+		a month for Phase 1 covering Web browsers,<break/>
+		iOS and Android devices, also now<break/> 
+		testing involves Amazon Fire Tablet as well <break/>
+		Testing of Phase 2 Large screen devices<break/> 
+		Samsung TV, Apple TV and Amazon Fire<break/>
+		TV for Tech trial and Alpha trial.<break/>
+
+	  <id>DA4</id>
+	  </template>   
+   </category>
+   
+   <category>
+      <pattern>*STEEL THREAD SCENARIOS*PERFORMED*</pattern>
+      <template>
+	  The Steel thread scenarios are happy<break/>  
+	  path scenarios which are performed to check<break/>  
+	  if basic functionalities are working as expected or not.<break/> 
+	  <id>DA5</id>
+	  </template>   
+   </category>
+   
+   <category>
+      <pattern>*WHAT IS PERFECTO*</pattern>
+      <template>
+	  Perfecto is a Web Automation tool, which is<break/> 
+	  used to perform Web and Device Automation Testing<break/>
+		url: rm209.perfectomobile.com/<break/>
+
+	  <id>DA6</id>
+	  </template>   
+   </category>
+   
+   <category>
+      <pattern>*WHAT IS CMS*</pattern>
+      <template>
+	  CMS is Content Management tool which is used<break/> 
+	  to create, update and edit the Web/App contents<break/>
+		Links are as follows:<break/>
+		For Voltest: http://editors.voltest.btrcom.bt.com:62102/cse/wem/fatwire/home<break/>
+		For Gotham: http://editors.gotham.btrcom.bt.com:61102/cse/wem/fatwire/home<break/>
+
+	  <id>DA7</id>
+	  </template>   
+   </category>
+   
+   <category>
+      <pattern>*WHAT IS FORGE*</pattern>
+      <template>
+	  Forge is used to create or update<break/>
+	  the DeltaTre IDs for Diva events.<break/>
+		Url: forge-bt.stg.diva.deltatre.net/
+
+	  <id>DA8</id>
+	  </template>   
+   </category>
+   
+    <category>
+      <pattern>*WHAT IS ONEVIEW*</pattern>
+      <template>
+	  Oneview is a component which is  used<break/> 
+	  to create different type of customers with<break/> 
+	  different subscriptions<break/>
+		url: http://10.188.56.12:61010/ecommunications_enu/start.swe
+
+	  <id>DA9</id>
+	  </template>   
+   </category>
+
+ </aiml>

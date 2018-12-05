@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+  <pattern>* ACCESS TO JIRA, WIKI *</pattern>
+   <template>
+     Reach out to Surabhi from Environment team. <break/>
+     Contact ID:surabhi.shah@bt.com
+	 <id>Systest1</id>
+   </template>
+ </category>
+
+<category>
+  <pattern>* GET ACCESS TO ROOM 101 AND AUTOMATION VM *</pattern>
+   <template>
+     Connect with any of your current team members to raise Jira ticket for room 101 access
+	 <id>Systest2</id>
+   </template>
+ </category>
+
+<category>
+  <pattern>* TYPICAL DELIVERY LIFECYCLE *</pattern>
+   <template>
+     It starts with Design team creating EDA, TVSP, VSE, and VSPT along with design documents.<break/>
+	 After design documents are created Systest team goes through design documents and TVSP to write test cases.<break/>
+	 Component dev team refers VSE/VSPT and develops components.<break/>
+	 Once the components are delivered to Systest, Systest proceeds with test execution and raises defect (VST) if any.<break/>
+	 After test completion, components are delivered to E2E team. <break/>
+	 <id>Systest3</id>
+   </template>
+ </category>
+
+<category>
+  <pattern>* MAJOR ENVIRONMENTS IN VOSP *</pattern>
+   <template>
+     Environments used in CIT are Systest 1, Systest 0, VOLE, VOLD, VOLG, Reference, Production
+	 <id>Systest4</id>
+   </template>
+ </category>
+
+<category>
+  <pattern>* WHAT IS A SPRINT *</pattern>
+   <template>
+     Sprint is a two week development cycle. <break/>
+	 Currently, there is 2 week development sprint followed by 2 week test sprint.
+	 <id>Systest5</id>
+   </template>
+ </category>
+
+<category>
+  <pattern>* WHAT IS A RELEASE *</pattern>
+   <template>
+     Release decides how many features will be delivered to the client in stipulated time. Multiple Sprints (2 to 4 sprints) are clubbed together to form a release. System testing is performed Sprint wise but actual sign off is done Release wise.
+	 <id>Systest6</id>
+   </template>
+ </category>
+
+</aiml>

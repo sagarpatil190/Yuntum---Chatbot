@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+   <category>
+      <pattern>* TDC CYCLE*</pattern>
+      <template>
+         Please Click below link for more info<hyperlink href="https://wiki.tvac.bt.co.uk/display/TVREL" target="_blank">Go To Wiki</hyperlink>
+		 <id>RM2</id>
+      </template>
+      
+   </category>
+   <category>
+      <pattern>* SCOPE OF RELEASE *</pattern>
+      <template>
+           Please Click below link for more info <hyperlink href="https://wiki.tvac.bt.co.uk/display/TVREL" target="_blank">Go To Wiki</hyperlink>
+		  <id>RM2</id>
+      </template>
+      
+	
+   </category>
+    <category>
+      <pattern>* ENVIRONMENT PLAN *</pattern>
+      <template>
+          Please Click below link for more info <hyperlink href="https://office.bt.com/sites/visionrm/Project%20Documents1/Environments/Environment%20Release%20Plan.xlsx" target="_blank">Go To Wiki</hyperlink>
+		  <id>RM3</id>
+	  </template>
+      
+   </category>  
+   <category>
+		<pattern>UPCOMING PROJECTS</pattern>
+		<template>
+          Please Click below link for more info <hyperlink href="https://wiki.tvac.bt.co.uk/display/TVREL/BT+TV+Release+Management+Home" target="_blank">Go To Wiki</hyperlink>
+		  <id>RM4</id>
+	  </template>
+	</category>  
+	 <category>
+      <pattern>*PROJECTS ARE COMING*</pattern>
+      <template><srai>UPCOMING PROJECTS</srai></template>   
+   </category>
+    <category>
+		<pattern>*UPCOMING PROJECTS*</pattern>
+		<template><srai>UPCOMING PROJECTS</srai></template>   
+	</category> 
+	
+   
+</aiml>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>	
+<category>
+		<pattern>*DIFFERENCE BETWEEN SALARY RELATED REIMBURSEMENTS AND BUSINESS RELATED REIMBURSEMENT*</pattern>
+		<template>
+			Yes, let's talk money! Salary related reimbursements or R539 are a part<break>
+			of your total fixed pay. You are entitled to a full or partial tax exemption<break>
+			on these, but you need to submit the relevant bills to get reimbursed.<break>
+			So, these include expenses borne by you towards Medical, LTA and Car<break>
+			(if availed under Company lease Programmed). Remember, salary reimbursements<break>
+			cannot be claimed if you have not allocated them in the Compensation Plan;<break>
+			so make sure you do this. Business related reimbursements are expenses<break>
+			which you incur for official purposes. It's above your Fixed Pay.<break>
+			Transport Allowance (including business expenses while traveling on official visits),<break>
+			Meals, Lodging and Daily Allowances while travelling - all these fall<break> 
+			under Business related reimbursements. These expenses can be claimed through<break> 
+			the My Time and Expenses (MyTE) tool with the right supporting documents<break> 
+			and approvals. Remember to save those bills!<break>
+			
+			<id>RIMB1</id>
+			
+		</template>
+	</category>
+
+
+<category>
+		<pattern>*SALARY RELATED REIMBURSEMENTS (R539) ARE PAID*</pattern>
+		<template>
+			Let me get straight to the point. Salary related reimbursements (R539)<break>
+			are credited on the 24th of every month to your salary account and if<break>
+			the 24th is a holiday / weekend; the credit hits your account the next working day.<break>
+			Reimbursements are paid based on the original vouchers / supporting bills that you submit<break>
+			- and the aim is to provide you full or partial tax exemption. That's one of the reasons<break>
+			they are not paid with the salary. If they were paid with your salary, the whole amount<break>
+			would be taxed. You see, we're thinking ahead on what's best for you - all the time.<break>
+			We're cool like that!<break>
+			
+			<id>RIMB2</id>
+
+		</template>
+	</category>
+
+
+<category>
+		<pattern>*TAX EXEMPTION ON LTA*</pattern>
+		<template>
+			It always gets me pumped when we discuss travel. And food,<break>
+			of course…Let me help you with this. Two tax exemptions can be<break>
+			availed on a complete journey performed in a block of 4 years,<break>
+			for e.g. between Jan’14 and Dec’17. A complete journey is defined<break> 
+			as 'To' and 'From', based on shortest route, between source<break>
+			and farthest destination. So, clubbing multiple journeys and<break>
+			claiming it at once will not be considered for tax exemption.<break>
+			The current LTA block is from Jan’14 – Dec’17.<break>
+			
+			<id>RIMB3</id>
+			
+		</template>
+	</category>
+
+
+<category>
+		<pattern>*CLAIMING THE COMPANY LEASED CAR REIMBURSEMENTS*</pattern>
+		<template>
+			Let me take a deep breath. Here we go -<break>
+			Here are the documents you'll need to claim the Company Leased Car reimbursement -<break>
+
+			1.Car Running expenses such as self-car fuel bills / CNG /electricity bills (for E -Car)<break>
+	
+			2.Car Maintenance -<break>
+			You can claim repairs or maintenance more than Rs.500, undertaken at an Authorized<break>
+			Service Center of the car manufacturer. Remember, the payment should have been made<break>
+			through Credit Card/Debit Card/NEFT. Cash payments will not be reimbursed.<break>
+			You will need to submit the Original Tax Invoice issued by the vendor for<break>
+			the repairs done along with payment proof for reimbursement.<break>
+			
+			3.Toll Receipts, Parking Receipts can also be claimed under Car Maintenance.<break>
+
+			4.Driver Salary Receipts - with proof of Electronic Transfer of the salary paid<break>
+			to the driver. This could also be in the form of a certificate from the bank from<break>
+			which the driver's salary was paid. Cash payments will not be considered for reimbursements.<break> 
+			Remember to provide a copy of the Driver’s License each time you make a claim.<break> 
+			 Furthermore, car running and driver salary bills will have to be submitted each month.<break>
+			 You will not be able to claim reimbursement in excess of your prorated eligibility<break>
+			 as on the day of claim.<break>
+			 All's well that ends with a coffee.<break>
+			 
+			 <id>RIMB4</id>
+
+
+		</template>
+	</category>
+
+<category>
+		<pattern>*CLAIM DRIVER SALARY EXPENSES*</pattern>
+		<template>
+			So here is how you can claim the driver salary component -<break>
+			Step 1 - You will need to book month-wise claims (Bills pertaining<break>
+			to 1st April and onwards will be eligible for payments).<break>
+			(Here is the path on the Allsec tool - Bill Wise Claim - Click Here To Claim.)<break>
+			Step 2 - You will need to provide proof of Electronic Transfer of the salary<break>
+			paid to the driver. This could also be in the form of a certificate from the bank<break>
+			of the payment. Cash payments will not be considered for reimbursements so go<break>
+			ahead and set up this system. Remember to provide a copy of the driver’s license<break>
+			each time you make a claim.<break>
+			
+			<id>RIMB5</id>
+			
+		</template>
+	</category>
+
+<category>
+		<pattern>*REIMBURSEMENTS REJECTIONS DOCUMENT STATUS*</pattern>
+		<template>
+			Let me sort this out for you. ALLSEC is your answer!<break>
+			Details of R539 or salary reimbursements claimed and cleared<break>
+			till date, are available under Reimbursement > Document Tracking<break>
+			on the Allsec website. Meanwhile, hope you're going well with your fitness goals!<break>
+			
+			<id>RIMB6</id>
+			
+		</template>
+	</category>
+</aiml>

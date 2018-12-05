@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+		<pattern>*NJO SCHEDULE*</pattern>
+		<template>
+			Welcome to Accenture!<break/>
+
+			As a Lateral or Executive participant, you can charge time<break/>
+			for the day you attended the ATC (Advanced Technology Center) New<break/>
+			Joiner Orientation (NJO). The WBSe for charging time will be <break/>
+			shared with you via email by the NJO team, soon after your NJO<break/>
+			session is done.<break/>
+
+			And then you must do one thing for your health today.  <break/><break/>
+
+			#wellness goals<break/>
+			
+			<id>LRNDEV1</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*OFFERINGS UNDER AHEP*</pattern>
+		<template>
+			The Accenture Higher Education Program (AHEP) has 2 certificate<break/>
+			program offerings both of a 1 year duration -<break/>
+
+			EPYM – Executive Program for Young Managers.<break/>
+			(for Levels 10 and 11).<break/>
+
+			EPGBM – Executive program for Global Business Management.<break/>
+			(for levels 8 and 9).<break/>
+
+			FALSE<break/>
+			
+			<id>LRNDEV2</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*I AM GOING ABROAD ON P710/ GCP/ ST GCP. CAN I STILL CONTINUE WITH THE AHEP PROGRAM? I MIGHT BE GOING ON GCP, CAN I STILL ENROLL?*</pattern>
+		<template>
+			To travel is to live; said somebody really wise.<break/>
+
+			Accenture Higher Education Program or AHEP is not for P710/GCP<break/>
+			employees. If you think you will be getting into a GCP role soon,<break/>
+			I'd say you should enjoy that experience now. And maybe enroll for<break/>
+			the next batch of AHEP, what say.<break/><break/>
+
+			#Travel<break/>
+
+			<id>LRNDEV3</id>
+			
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern>*AHEP SELECTION PROCESS*</pattern>
+		<template>
+			Let me take a deep breath and take you through this!<break/>
+
+			The Accenture Higher Education Program or AHEP selection process<break/>
+			begins when an email communication is sent out to eligible Techstars<break/>
+			employees.(TechStar is a global recognition program for high <break/>
+			performers, employees are nominated by entity business leadership<break/>
+			for the programme.)<break/>
+
+			After that, selection to the AHEP is on a First Come First Served(FCFS)<break/>
+			basis depending upon submission of the following documents to<break/>
+			ahep@accenture.com via a single, consolidated  email, with all <break/>
+			educational documents named as firstname_lastname_item in JPEG format.<break/>
+
+			• Mark Sheets for all years of your Graduation.<break/>
+
+			• Final Graduation Certificate.<break/>  
+
+			• Scanned copy of the consent form (Original to be handed over to the<break/>
+				People Advisor)<break/>
+
+			• Employee Details to be filled in the spreadsheet attached in the slide<break/>
+			deck.<break/>
+
+			• Supervisor / Skip level approval via email.<break/>
+
+			• Consent from employee to sign the Service Agreement.<break/>
+
+			You can always share your location preference once enrolled.<break/>
+
+			I am going to get some coffee now, how about you!<break/>
+			
+		<id>LRNDEV4</id>
+			
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern>*WILL EMPLOYEE ATTENDING AHEP RECEIVE ANY SPECIAL CREDIT DURING PERFORMANCE ACHIEVEMENT, PROMOTIONS, INCREMENTS ETC.?*</pattern>
+		<template>
+			I am a creative genius and have the answer!<break/>
+			The Accenture Higher Education Program or AHEP is a professional<break/>
+			program to help employees who come from a technical background<break/>
+			to enhance their managerial and leadership skills and capabilities<break/>
+			while continuing to work within Accenture. So, the outcome or<break/>
+			participation in AHEP will not have any bearing on the employee’s<break/>
+			Talent outcome and/ or career progression. It's all about your<break/>
+			personal growth, really.<break/>
+			
+		<id>LRNDEV5</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*MINIMUM SERVICE AGREEMENT WITH ACCENTURE POST COMPLETION OF THE AHEP COURSE*</pattern>
+		<template>
+			Let me take care of this for you.<break/>
+			
+			The Service Agreement mandates 12 months with Accenture after<break/>
+			completion of the Accenture Higher Education Program (AHEP).<break/>
+			After the Service Agreement, Accenture will reimburse the full<break/>
+			amount of 25% paid by you initially to enroll for the course.<break/>
+
+			That’s a really good deal, if you ask me!<break/>
+			
+			<id>LRNDEV6</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*IS SOFTSKILLS TRAINING RELATED TO ANY PARTICULAR CAREER LEVEL*</pattern>
+		<template>
+			All employees who are willing to, can attend the Soft skill<break/>
+			trainings meant for their career level.<break/>
+			
+			<id>LRNDEV7</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*JOINING LINK FOR VIRTUAL SESSION*</pattern>
+		<template>
+			The Joining link for the session is shared in the calendar<break/>
+			invite of registered participants.<break/>
+			
+			<id>LRNDEV8</id>
+			
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern>*WAITLIST IN VIRTUAL SESSION*</pattern>
+		<template>
+			This scenario is seen when participants are in waitlist (the max<break/>
+			capacity for registration is 250 for virtual sessions). Hence the<break/>
+			251st participant onwards will go to waiting List. However, the<break/>
+			calendar invite will be sent to registered and waiting list<break/>
+			participants.<break/>
+			
+			<id>LRNDEV9</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WILL SOFTKILL TRAINING HELP ME IN MY PROMOTION*</pattern>
+		<template>
+			The trainings are designed to build your soft skills like basic<break/>
+			spoken and written communication, communication styles, business<break/>
+			communication, PowerPoint presentation etc.<break/>
+			It will help you in your professional development and enhance your<break/>
+			soft skills, required to enable you in your existing role and<break/>
+			manage your team.<break/>
+			
+		<id>LRNDEV10</id>
+			
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern>*CAN I SHARE THE INVITE FOR VIRTUAL TRAINING WITH MY COLLEGUES*</pattern>
+		<template>
+			There is no replacement process in Virtual sessions as there is<break/>
+			no charge for not attending the session. However, the invite can<break/>
+			be shared with other team members of the same Target Level. Also,<break/>
+			there is no charge for No-Show in virtual sessions.<break/>
+			Participant can cancel the registration from their end by raising<break/>
+			a request with myL team:<break/>
+			<hyperlink href="https://mylearning.accenture.com/atlas/Home.aspx#/contactUs" target="_blank">Contact Us</hyperlink>
+		
+			<id>LRNDEV11</id>
+		
+		</template>
+	</category>
+	
+</aiml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

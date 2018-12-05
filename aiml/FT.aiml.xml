@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+   <category>
+      <pattern>*CRB*</pattern>
+      <template>
+         CRB is Connected Red Button. It gives customer capability to monitor or see scores of various matches that are telecast
+		 simultaneously. For example when 8 matches of football are being telecast at the same time customer can watch one match 
+		 and have clarity of scores across all other matches by pressing Red button which invokes CRB app in UI.
+		 <id>F1</id>
+      </template>
+      
+   </category>
+   <category>
+      <pattern>*ISP*</pattern>
+      <template>
+          ISP is Internet service Provider, which instructs STB that BT is the service provider and what channels or how many number 
+		  of recordings can be made via STB
+		  <id>F2</id>
+      </template>
+      
+	
+   </category>
+    <category>
+      <pattern>*DUG*</pattern>
+      <template>
+         DUG is Digital User Group. ISP Downloaded into STB has DUG through which one can control what channel can be displayed in UI.
+		 <id>F3</id>
+	  </template>
+      
+   </category>  
+   
+   <category>
+		<pattern>*BUP*</pattern>
+		<template>
+         BUP is Broadband Usage Policy it includes broadband usage restriction of customer. E.g. If customer has unlimited subscription 
+		 they will be able to use unlimited Internet whereas when customer with limited subscription package can use limited Internet as 
+		 per subscription.
+		 <id>F4</id>
+	  </template>
+	</category>  
+	
+	<category>
+      <pattern>*D AND P*</pattern>
+      <template>
+		D&P stands for Directory and Profile. Whenever an order is placed via One view, a copy of it will be sent to VOSP and D and P. When 
+		customer enters user name/ Password via Mobile App and attempts to login – it calls Site minder which then calls D and P to verify the 
+		user details.
+		<id>F5</id>
+	  </template>   
+    </category>
+	
+	
+    <category>
+		<pattern>*ON PERM SOLUTION AND CLOUD SOLUTION*</pattern>
+		<template>
+		Anything (components/ other servers) that’s built within the premises is called as On Perm and anything that’s not within the premises 
+		(i.e. in Cloud) is called as cloud (e.g. AWS, Amazon web service).
+		<id>F6</id>
+		</template>   
+	</category> 
+	
+	<category>
+		<pattern>*CORE SITE AND GEO NODE*</pattern>
+		<template>
+		Core Site is in Tinsley and Rochdale environment whereas Geo site is in Baynard/ Tinsley/ Colombo/ Site 4 environments. All the App data 
+		components will be deployed in Core site and channel related components are deployed in Geo site (e.g. SHM/ View Proxy).
+		<id>F7</id>
+		</template>   
+	</category> 
+	
+	<category>
+		<pattern>*ROOM 101*</pattern>
+		<template>
+		BT Corporate network is called as Green side (i.e. access restricted) and All the VOSP components are deployed in Red side (Open to Internet). 
+		To prevent any of the attack from third party Room 101 acts as a bridge/ firewall between Outside Internet/ internal test environments.
+		<id>F8</id>
+		</template>   
+	</category> 
+   
+   
+   <category>
+		<pattern>*RMP*</pattern>
+		<template>
+		Remote Media Processor(RMP) is a software to manage transfer or  encode media files which will then be stored in CDN (Content delivery network).
+		<id>F9</id>
+		</template>   
+	</category> 
+	
+</aiml>

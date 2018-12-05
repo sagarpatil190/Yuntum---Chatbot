@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>	
+	<category>
+		<pattern>*CAN I CLAIM RELOCATION EXPENSES WHEN DEPUTED TO DIFFERENT LOCATION BY PROJECT*</pattern>
+		<template>
+		In case of deputation no relocation benefits can be claimed.<break>
+		Under Deputation an employee’s family travel expenses are not covered.<break>
+		For details of benefits provided to employee on deputation, please refer<break>
+		to policy 740 for details on within country assignments.<break> 
+		<hyperlink href="https://policies.accenture.com/Pages/0701-0800/0740_C19.aspx?rd=1&Country=India&Level=Below+Manager%2FLevel+B" target="_blank">https://policies.accenture.com/Pages/0701-0800/0740_C19.aspx?rd=1&Country=India&Level=Below+Manager%2FLevel+B</hyperlink>
+		
+		<id>TRANS1</id>
+		
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WHAT IS THE SLA FOR TRANSFER COMMITTEE TO RESPOND EMAILS/APPROVE THE REQUEST OF AN EMPLOYEE TRANSFER REQUEST*</pattern>
+		<template>
+		All Employee initiated transfer's has to be approved by Transfer committee.<break>
+		It is the responsibility of Project Scheduler to ensure that the transfer request<break>
+		is sent to idc.transfers.com. The scheduler has to follow up on the transfer<break>
+		request and take I to closure. The committee will take 2 Business days<break>
+		to approve a request provided the request is routed through Project<break>
+		scheduler Employee should not relocate until they have  received a<break>
+		confirmation email that their transfer has been approved<break>
+		from the id : India.ASTHelpdesk
+		
+		<id>TRANS2</id>
+		
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*ADMISSION ASSISTANCE*</pattern>
+		<template>
+		The School Admission Assistance is provided to employees<break>
+		at Career levels -Team Lead to Senior Manager.<break>
+		1.This benefit covers expenses incurred for school<break>
+		admission/non-refundable donation or non-refundable deposit<break>
+		for 2 children to the maximum of INR 40,000/- per child.<break>
+
+		2.This amount would qualify for reimbursement on actuals<break>
+		upon submission of appropriate receipts/ invoices<break>
+		
+		<id>TRANS3</id>
+
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WHAT ARE THE FLY BACK SCHEMES AVAILABLE FOR EMPLOYEES SENT ON DEPUTATION OR UNDER P710 POLICY*</pattern>
+		<template>
+		For services and enterprise workforces, Within-country assignments for a period<break>
+		up to 60 calendar days are not provided with the fly back option.<break>
+		For assignments up to a duration of 60 calendar days in Solutions workforce<break>
+		and for all other workforce assignments for a duration exceeding 60 calendar days,<break>
+		employees will be eligible for fly back options based on employee's Travel group eligibility-<break>
+
+		• Travel Group 4 (Sr. Software Engineer and below) is entitled for a fly back of once a month.<break>
+
+		• Travel Group 3 (System Analyst & Sr.system analyst) is entitled for a fly back of once in a fortnight.<break>
+
+		• Travel Group 2 (Manager & Sr. Manager) is entitled for a fly back of once in a fortnight<break>
+		
+		<id>TRANS4</id>
+
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*ONCE MY RELOCATION IS APPROVED AND I BEAR THE EXPENSES TO RELOCATE, AGAIN I RECEIVE A CALL FROM OTHER LOCATION FOR PROJECT CAN I REFUSE?*</pattern>
+		<template>
+		After 3 months of Employee initiated relocation, organization<break>
+		can initiate permanent transfer based on business requirements.<break>
+		If you are getting a project call for other locations within 3 months<break>
+		of EIT, you can ask for an option of PSR or deputation. Any refusal will be<break>
+		treated as a staffing refusal and will be followed with a disciplinary action.<break>
+		
+		<id>TRANS5</id>
+		
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WHAT IS THE CRITERION FOR FINALIZING THE TRANSFER BY THE CENTRAL COMMITTEE*</pattern>
+		<template>
+		Project Scheduler reaches out to transfer committee depending<break>
+		on project need for transfer approval. Project should ensure that<break>
+		</break>the employee is not rolled off to bench in the next 3 months<break>
+		else the transfer is considered as cancelled. The committee will not<break>
+		approve any transfers directly to bench.<break>
+		
+		<id>TRANS6</id>
+		
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*IF DEPUTATION IS CONVERTED IN TO PERMANENT TRANSFER OR PSR WILL I BE ELIGIBLE FOR THE BENEFITS AS PER THE GUIDELINES*</pattern>
+		<template>
+			The employee will be eligible for all the benefits mentioned<break>
+			in the scheme from the day deputation is converted to Project Specific<break>
+			Relocation or Permanent relocation.
+			
+			<id>TRANS7</id>
+			
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern>*What is Pre-move trip benefit?*</pattern>
+		<template>
+			This benefit are applicable to employees at Career levels-Associate Manager<break> 
+			to Senior Manager(Level C to A) to assist them in making arrangements<break>
+			at the new location before relocating.<break>
+
+			1.This benefit is applicable to the employee<break>
+			and one accompanying individual from the family.<break>
+
+			2.The total duration of the pre-move trip is up to<break>
+			a maximum of 5 calendar days.<break>
+
+			3.Pre-move trip can be made a month prior to<break>
+			transfer start date.<break>
+
+			4.The employee can avail travel (to and for) and accommodation<break>
+			during the pre-move trip, including the accommodation for the family member.<break>
+	
+			5.The pre move trip can be availed in segments and can also be combined<break>
+			with transit accommodation, provided that the total amount of the claim<break>
+			does not exceed the entitlement as mentioned in clause 3.2.2 of the relocation.<break>
+			This amount would qualify for reimbursement at actual upon submission<break>
+			of appropriate receipts/ invoices.<break>
+
+			6.Employees are eligible to claim per diems during the pre-move trip.<break> 
+			The per diem amounts applicable during pre-move trip are those set<break> 
+			forth in Policy 0740 on Within-country Assignments and Intermittent<break> 
+			Business and Training Travel, availing the benefit as defined under<break> 
+			“within-country intermittent business travel”. In addition<break> 
+			to the per diems for the employee, when the employee's family<break> 
+			member is accompanying him/her, they would be eligible to<break> 
+			receive an additional 50% of the base per diem<break>
+			that the employee is eligible for.<break>
+			
+			<id>TRANS8</id>
+			
+		</template>
+	</category>
+	</aiml>

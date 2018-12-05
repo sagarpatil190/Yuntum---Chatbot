@@ -1,5 +1,4 @@
-﻿import { getUserMedia } from 'getusermedia-js';
-var express = require('express');
+﻿var express = require('express');
 var app = express();
 var path = require('path');
 var fs = require('fs');
@@ -107,41 +106,6 @@ app.get('/chat', function(req, res) {
 
 });
 
-const capture = () => {
-    // add canvas element
-    const canvas = document.createElement('canvas');
-    document.querySelector('body').appendChild(canvas);
-
-    // set canvas dimensions to video ones to not truncate picture
-    const videoElement = document.querySelector('#stream video');
-    canvas.width = videoElement.width;
-    canvas.height = videoElement.height;
-
-    // copy full video frame into the canvas
-    canvas.getContext('2d').drawImage(videoElement, 0, 0, videoElement.width, videoElement.height);
-
-    // get image data URL and remove canvas
-    const snapshot = canvas.toDataURL("image/png");
-    canvas.parentNode.removeChild(canvas);
-
-    // update grid picture source
-    document.querySelector('#grid').setAttribute('src', snapshot);
-};
-
-getUserMedia({
-	video: true,
-	audio: false,
-	width: 640,
-	height: 480,
-	el: 'stream', // render live video in #stream
-	swffile: require('getusermedia-js/dist/fallback/jscam_canvas_only.swf'),
-  }, stream => {
-	  startVideo(stream);
-	  document.getElementById('capture').addEventListener('click', () => {
-		  capture();
-		  stopVideo(stream);
-	  });
-  }, err => console.error(err));
 
 app.get('/python', function(req, res) {
 	var spawn = require("child_process").spawn;

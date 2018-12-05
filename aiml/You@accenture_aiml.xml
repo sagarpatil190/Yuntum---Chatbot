@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>	
+	<category>
+		<pattern>*UPDATE MY PERSONAL DATA IN ACCENTURE RECORDS*</pattern>
+		<template>
+		Let me help you with this. Here is how you can raise a request<break>
+		for update/change in personal data through myRequests. Log on to<break> 
+		<hyperlink href="https://myrequests.accenture.com" target="_blank">https://myrequests.accenture.com</hyperlink><break>
+		On the Tool, click on Create Request from the drop-down list select Change Personal information.<break>
+		Examples of personal data are Name &Marital Status, Alternate Mailing address,<break>
+		Change Career Advisor and Approvers, Education, Permanent Address,<break>
+		Personal Email Address , Personal Phone Numbers,<break>
+		Emergency Contact Information.<break>
+		You will be able to track the progress of your personal<break>
+		data change directly in myRequests.<break>
+		Supporting documentation are required for Last name and Marital status<break>
+		change (marriage certificate/ identification card) which you must<break>
+		attach in myRequests along with your change request.<break>
+		
+		<id>UACC1</id>
+		
+		</template>
+	</category>
+	
+	<category>
+	<pattern>*CHANGE ENTERPRISE ID*</pattern>
+		<template>
+			Let me focus on this for a moment. I suggest<break>
+			that only if you have a legitimate business reason<break>
+			then only raise a request to change your Enterprise ID.<break> 
+			Legitimate reasons include: legal name change, change of marital<break> 
+			status, inaccuracy of originally assigned name, technical issues<break> 
+			caused by name exceeding 20 characters. You may not change your name<break>
+			simply to remove the middle initial or to use a preferred nickname<break>
+			(i.e., Mike for Michael). Whenever, possible your name<break>
+			should match your legal name.<break>
+			Log on to <hyperlink href="https://directory.accenture.com/namechange/" target="_blank">https://directory.accenture.com/namechange/</hyperlink><break>
+			to raise a request to change to your Enterprise ID.
+			
+			<id>UACC2</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*UPDATE BANK ACCOUNT DETAILS*</pattern>
+		<template>
+		It's best to update the bank details as soon as you're<break>
+		onboarded - and definitely by the 22nd of the month.<break>
+		Go here <hyperlink href="https://smartpay.allsectech.com/Accenturelogin/SmartLogic/memberlogin.aspx" target="_blank">https://smartpay.allsectech.com/Accenturelogin/SmartLogic/memberlogin.aspx</hyperlink> and follow<break>
+		the path Allsec -> Utilities -> Master Setup -> Bank Account Details. This way,<break>
+		you will have your salary credit in the same month.<break>
+		However, if you're unable to do this before the 22nd of the<break>
+		month, don't worry! Your salary will be credited by the 7th of the<break>
+		following month and will appear in that month's pay slip. The account<break>
+		number details will also start showing on your salary slip from the subsequent month.<break>
+		Remember - all payments (salary, reimbursement) will be made to a single account and<break>
+		that account must be in your name only.<break>
+
+		<id>UACC3</id>
+		
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>*WHERE CAN I SEE MY UTILIZATION*</pattern>
+		<template>
+		You can view your monthly and yearly Utilization on Allsec,<break>
+		log on to <hyperlink href="https://smartpay.allsectech.com/Accenturelogin/SmartLogic/memberlogin.aspx" target="_blank">https://smartpay.allsectech.com/Accenturelogin/SmartLogic/memberlogin.aspx</hyperlink>
+		under Utility tab choose “Resource Utilization status” option.<break>
+		For query on utilization write to <hyperlink href="IDC.Yield.Management@accenture.com">IDC.Yield.Management@accenture.com</hyperlink>
+		
+		<id>UACC4</id>
+		
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>*WHERE CAN I SEE MY PHONE NUMBER IN ACCENTURE RECORDS*</pattern>
+		<template>
+		The quickest place to locate your phone number at Accenture<break>
+		is your business card in Outlook Express or Skype for Business.
+		
+		<id>UACC5</id>
+		
+		</template>
+	</category>	
+
+	<category>
+		<pattern>*CHANGE MY ENTERPRISE PASSWORD*</pattern>
+		<template>
+		To change your enterprise password, log on to <hyperlink href="" target="_blank">https://directory.accenture.com/ChangePassword/Default2.aspx</hyperlink><break>
+		On the portal, fill in the fields given and select Change Password.<break>
+		You will receive an e-mail notification once your password has been changed<break>
+		successfully. Your new password will immediately be effective across all Accenture applications.<break>
+		Remember to also update your enterprise password on any mobile device (e.g., phones and tablets) that connects to Accenture e-mail.
+		
+		<id>UACC6</id>
+		
+		</template>
+	</category>		
+</aiml>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+	<category>
+		<pattern>*LGBT COMMUNITY*</pattern>
+		<template>
+			LGBT is an acronym that stands for lesbian, gay,<break>
+			bisexual, and transgender. Lesbian, Gay, Bisexual<break>
+			addresses the sexual orientation of an individual.<break>
+			Transgender addresses gender identity and gender<break>
+			expression of an individual.<break>
+			For more information on sexual orientation, gender<break>
+			identity and gender expression, please refer to our<break>
+			LGBT Portal:<break>
+			<hyperlink href="https://in.accenture.com/inclusionanddiversity/lgbt/be-informed/" target="_blank">https://in.accenture.com/inclusionanddiversity/lgbt/be-informed/ </hyperlink>
+			
+		<id>INCLDIV1</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*DOES ACCENTURE PROVIDE COVERAGE FOR GENDER REASSIGNMENT SURGERY*</pattern>
+		<template>
+			Accenture medical insurance also includes gender<break>
+			reassignment surgery. This is part of overall medical<break>
+			cover you are eligible for and is not over and above<break>
+			the same.<break>
+			100% cover amount can be availed. INR 3 lakh for career<break>
+			level 8-13 and INR 5 lakh for career level 7 and above.<break>
+			Same co-pay percentages will be applied.<break>
+			
+		<id>INCLDIV2</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*FULL FORM OF PWD*</pattern>
+		<template>
+			According to the new Rights of Persons with Disability Act 2016<break>
+			“Person with disability” means a person with long term physical,<break>
+			mental, intellectual or sensory impairment which, in interaction<break>
+			with barriers, hinders his full and effective participation in<break>
+			society equally with others.<break>
+			The types of Disabilities covered by Accenture are listed in Allsec.<break>
+			
+		<id>INCLDIV3</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*DISABILITIES ARE RECOGNIZED BY ACCENTURE*</pattern>
+		<template>
+			<srai>*FULL FORM OF PWD*</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*ASSISTIVE TECHNOLOGY*</pattern>
+		<template>
+			Any assistance or changes to a position in the workplace or<break>
+			technology add-ons that will enable an employee to do his or<break>
+			her job despite having a disability is considered as Reasonable<break>
+			Accommodation. This includes Transportation (daily commute),<break>
+			Workplace Adjustments (workstation, footstool, etc.) and Assistive<break>
+			Technologies (Software and hardware devices). The following<break>
+			Reasonable Accommodation are provided to Accenture employees who<break>
+			have declared their disability:<break>
+			
+			1.Emergency Preparedness: The emergency evacuation team will be<break>
+			in the best position to plan for your safety if your details,<break>
+			disability status and limitations are known.<break>
+
+			2.Tax and Statutory Benefit: There is a tax benefit on transportation<break>
+			allowance of INR 3,200/- per month and ESI benefit for employees<break>
+			who are Persons with Disabilities and are drawing a salary income<break>
+			upto INR 25,000/- under statutory benefit.<break>
+
+			3.Reasonable Accommodations: Employees can avail the following<break>
+			Reasonable Accommodations:<break>
+			a. Transportation/Medical Cabs - Daily commute through medical cabs<break>
+			meant for employees with Vision and Orthopedic Impairment – Speak to<break>
+			your people advisor to avail this facility.<break>
+
+			b. Workplace Adjustments - Workstation adjustments, restroom<break>
+			modifications, footstools, etc.<break>
+
+			c. Assistive Technologies - Software and Hardware devices<break>
+
+			Employees can raise a Workplace adjustment or Assistive Technology <break>
+			device request in the following link:<break>
+			<hyperlink href="https://ts.accenture.com/sites/PwD_Reasonable_Accommodations/default.aspx" target="_blank">https://ts.accenture.com/sites/PwD_Reasonable_Accommodations/default.aspx</hyperlink>
+			
+
+			4.PwD Mentoring Program: Mentoring program is designed to provide <break>
+			opportunity to be a guide, coach and champion for persons with<break>
+			disabilities. The program leaves our employees inspired by the life’s<break>
+			journey of our employees who are Persons with Disabilities. It also helps<break>
+			one understand the unique challenges facing persons with disabilities. For<break>
+			mentees, the program intends to provide access to coaching, information and<break>
+			access to leadership within Accenture – for additional perspectives and<break>
+			holistic development. Over 45 countries participate in the PwD mentoring<break>
+			program.<break>
+
+
+			5.Other Career Development Programs: The career path framework developed for<break>
+			employees who are Persons with Disabilities identifies the eligible employees<break>
+			at various career levels for the career development programs.<break>
+
+			<id>INCLDIV4</id>
+		
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*IS THERE ANY DEDICATED CAB FACILITY FOR EMPLOYEES WHO ARE PERSONS WITH DISABILITY*</pattern>
+		<template>
+			<srai>*WHAT IS ASSISTIVE TECHNOLOGY*</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WHAT ACTIVITIES ARE WE DOING INTERNALLY AT ACCENTURE IN INDIA TO CREATE AN INCLUSIVE ENVIRONMENT FOR LGBT EMPLOYEES*</pattern>
+		<template>
+			Ensuring an inclusive environment for lesbian, gay, bisexual and<break>
+			transgender (LGBT) employees across the globe is a key and integral<break>
+			part of Accenture's Global Inclusion and Diversity strategy. We are<break>
+			committed to raising awareness and educating all Accenture people<break>
+			about our LGBT community, while simultaneously supporting our LGBT<break>
+			employees and providing a workplace of equality.<break><break>
+			Here are some of Pride at Accenture in India programs and initiatives<break>
+			to re-iterate our commitment:<break>
+			
+			1.Hues of the Rainbow: This is a series of sessions with LGBT Community<break>
+			members across geographies at Accenture where they have voluntarily<break>
+			stepped up to share their journey line with us. Subscribe to the Hues of<break>
+			the Rainbow channel and watch the recording of previous sessions by <break>
+			clicking here:<break>
+			<hyperlink href="https://mediaexchange.accenture.com/channel/Hues%2Bof%2Bthe%2BRainbow/67962551" target="_blank">https://mediaexchange.accenture.com/channel/Hues%2Bof%2Bthe%2BRainbow/67962551</hyperlink><break>
+
+
+			2.Be an LGBT Ally: Having informed, visible and vocal Allies is key<break>
+			in overcoming challenges and creating an inclusive environment, which<break>
+			inspires collaboration every day. An Ally is someone who takes action<break>
+			to promote lesbian, gay, bisexual and transgender inclusion regardless<break>
+			of their sexual orientation or gender identity and expression. Sign up<break>
+			as an ally <hyperlink href="https://people.accenture.com/flairs/assign/5388086064b8cbf84b004b34" target="_blank">https://people.accenture.com/flairs/assign/5388086064b8cbf84b004b34</hyperlink><break>
+			and demonstrate your commitment to an inclusive workplace for all <break>
+			of their sexual orientation and gender identity.<break>
+			
+			3.LGBT Ally Network Council aka LANC: LANC is an initiative taken by<break>
+			Accenture in India to enable allies in the country to drive LGBT Inclusion<break>
+			awareness across locations. The council consists of:<break>
+
+			a. The India GU Committee which sets the directions to integrate LGBT Network<break>
+			efforts with Inclusion and Diversity priorities.<break>
+
+			b. Location leads will translate the priorities into programs on the ground<break>
+			and act as pulse of the LGBT network.<break>
+
+			c. Action Force Members will actively engage, support the location leads in<break>
+			executing the on-ground initiatives/programs and drive participation for the<break>
+			LGBT events hosted in their respective location.<break>
+
+			Should you want to volunteer as LANC Action force member and drive pride<break>
+			activities at your location, please write to us India_TalentStrategy@accenture.com;<break>
+			Subject of the email should be I want to Volunteer as Action Force Member<break>
+			for LANC.<break>
+			
+			4.LGBT Mentoring Program: Accenture’s LGBT Mentoring Program<break>
+			<hyperlink href=" https://in.accenture.com/inclusionanddiversity/lgbt/global-mentoring-program/" target="_blank"> https://in.accenture.com/inclusionanddiversity/lgbt/global-mentoring-program/ </hyperlink><break>
+			enables LGBT employees and others who have an interest in LGBT to connect with<break>
+			experienced colleagues and promote knowledge-sharing between mentors and mentees.<break>
+			The program provides access to coaching, information and leadership for additional<break>
+			perspectives and holistic development. Participants may or may not be members of the<break>
+			LGBT community but a connection is made based on a common interest in the LGBT topic.<break>
+
+			Sign up to become an LGBT Mentor / Mentee.<break>
+			<hyperlink href="https://people.accenture.com/MyProfile" target="_blank"> https://people.accenture.com/MyProfile </hyperlink><break>
+			
+			5.Pride Month Celebration: We celebrate Pride month internally at Accenture every year<break>
+			in month of June. The celebration is marked with flurry of colorful activities like<break>
+			pride wall across Accenture locations, network activities and leadership engagement.<break>
+			These activities are driven by our allies’ network.<break>
+
+			<id>INCLDIV5</id>
+		
+		</template>
+	</category>
+	
+</aiml>
+
+

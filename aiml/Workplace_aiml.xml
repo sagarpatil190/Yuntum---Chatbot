@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>	
+	<category>
+		<pattern>*PRINTER PAPER*</pattern>
+		<template>Kindly raise a stationary request on myRequests-<hyperlink href="https://myrequests.accenture.com/" target="_blank">https://myrequests.accenture.com/</hyperlink>
+			<id>WKPLC1</id>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*TRANSPORT QUERIES*</pattern>
+		<template>
+		You have two very simple way to get answer to your Transport Query<break>
+		1.Just dial 66666 from Accenture Landline number and select option 1. Or<break>
+		2.Visit your TMS login - <hyperlink href="https://india.etransport.accenture.com/TmsReport/TMSHome.aspx" target="_blank">https://india.etransport.accenture.com/TmsReport/TMSHome.aspx</hyperlink>
+		<id>WKPLC2</id>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*BOOK CONFERENCE ROOMS*</pattern>
+		<template>
+		Now you can book conference on the go. Download Reserve<break>
+		mobile app from Accenture App catalog. Or to Reserve Space<break>
+		and book online  login to - <hyperlink href="https://reservations.accenture.com/reserve-space/" target="_blank">https://reservations.accenture.com/reserve-space/</hyperlink><break>
+		or Drop an email to <hyperlink href="India.Conferences@accenture.com">India.Conferences@accenture.com</hyperlink><break>
+		
+		<id>WKPLC3</id>
+		
+		</template>
+	</category>	
+</aiml>

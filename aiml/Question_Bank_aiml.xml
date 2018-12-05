@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+   <category>
+      <pattern>*ACCESS FOR BAY*</pattern>
+      
+      <template>
+          As project works on Client network, Bay access can only be granted after users Domain ID is created.<break/>
+		  For Access contact Project PMO. Self request may also be raised at following link<break/> 
+		  <hyperlink href="https://safe.accenture.com/SAFESelfService/default.aspx" target="_blank">https://safe.accenture.com/SAFESelfService/default.aspx</hyperlink>
+		  
+		  <id>QB1</id>
+		  
+      </template>
+      
+   </category>
+   
+   <category>
+      <pattern>*BAY ACCESS*</pattern>
+      <template><srai>*ACCESS FOR BAY*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*ACCESS BAY*</pattern>
+      <template><srai>*ACCESS FOR BAY*</srai></template>   
+   </category>
+   
+   <category>
+	<pattern>*ROOM 101*</pattern>
+	<template>
+		Connect with any of your current team members to raise Jira ticket for room 101 access
+		<id>QB2</id>
+	</template>
+   </category>
+   
+   <category>
+	<pattern>*ACCESS * SHAREPOINT*</pattern>
+	<template>
+		Send an email to <hyperlink href="mailto:nikhil.sujanani@accenture.com">nikhil.sujanani@accenture.com</hyperlink>for accenture sharepoint access.
+		<id>QB3</id>
+	</template>
+   </category>
+   
+   <category>
+	<pattern>*SUPERVISOR OR APPROVER ON MYTE*</pattern>
+	<template>
+		We need to update names of our TL as supervisors in AST tool. For Myte your leads will be reviewer.
+		<id>QB4</id>
+	</template>
+   </category>
+   
+   <category>
+      <pattern>*APPROVER ON MYTE*</pattern>
+      <template><srai>*SUPERVISOR OR APPROVER ON MYTE*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*SUPERVISOR ON MYTE*</pattern>
+      <template><srai>*SUPERVISOR OR APPROVER ON MYTE*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*MYTE SUPERVISOR*</pattern>
+      <template><srai>*SUPERVISOR OR APPROVER ON MYTE*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*MYTE APPROVER*</pattern>
+      <template><srai>*SUPERVISOR OR APPROVER ON MYTE*</srai></template>   
+   </category>
+   
+   <category>
+	<pattern>*WBSE*</pattern>
+		<template>
+			The WBSE code is location and work specific.<break/> 
+				- If Hardlocked to the project the WBSE would be AGB9902K or AGB9902Y (as its Team specific please cross check with current team members).<break/>
+				- If Shadow locked, search your Accenture email for details related to WBSE or consult PMO.<break/>
+				
+				<id>QB5</id>
+				
+		</template>
+   </category>
+   
+   <category>
+	<pattern>*LOGIN CREDENTIAL*</pattern>
+		<template>
+			Once you join the project the login credentials request will be raised.<break/>
+			Please note Accenture Id will not work on BT system project operates from client"s domain.<break/>
+			
+			<id>QB6</id>
+			
+		</template>
+   </category>
+   
+   <category>
+      <pattern>*LOGIN INFORMATION*</pattern>
+      <template><srai>*LOGIN CREDENTIAL*</srai></template>   
+   </category>
+   
+   <category>
+	<pattern>*MANDATORY TRAININGS*</pattern>
+	<template>
+		Following are the Mandatory Trainings for BT Project.Working In Partnership With BT:<break/> 
+			1) Way We Work<break/> 
+			2) Stop. Think. Protect<break/>
+			3) Don’t feed the Phish<break/>
+			4) It Matters… The BT Code of Practice<break/>
+			5) Anti-corruption and bribery Training<break/>
+			6) Data Protection and PCI-DSS Compliance<break/>
+			7) Basic Compliance for team members<break/>
+			
+		<id>QB7</id>
+		
+</template>
+   </category>
+   
+   <category>
+      <pattern>*BT TRAININGS*</pattern>
+      <template><srai>*MANDATORY TRAININGS*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*TRAININGS IN BT*</pattern>
+      <template><srai>*MANDATORY TRAININGS*</srai></template>   
+   </category>
+   
+   <category>
+	<pattern>*INSTALL NEW SOFTWARE*</pattern>
+		<template>
+			We need to contact dedicated project tech support for any installation.<break/>
+			Lync ID - <hyperlink href="mailto:yogesh.patil@bt.com">yogesh.patil@bt.com</hyperlink> or <break/>
+			<hyperlink href="mailto:yogesh.vasant.patil@accenture.com">yogesh.vasant.patil@accenture.com</hyperlink>
+			
+			<id>QB8</id>
+			
+		</template>
+   </category>
+   
+   <category>
+      <pattern>*INSTALL*</pattern>
+      <template><srai>*INSTALL NEW SOFTWARE*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*NEW SOFTWARE*</pattern>
+      <template><srai>*INSTALL NEW SOFTWARE*</srai></template>   
+   </category>
+   
+   <category>
+	<pattern>*TEAMS IN * BT*</pattern>
+		<template>	
+			Depending on the team you are assigned please contact respective individuals:<break/>
+			1) Automation  - <hyperlink href="im: &lt sip:rajesh.2.singh@bt.com &gt">Rajesh Singh</hyperlink><break/>
+			2) BB and Wi-Fi - <hyperlink href="im: &lt sip:mrigyanka.shubhangi@bt.com &gt">Mrigyanka Shubhangi</hyperlink><break/>
+			3) BT TV Environment Management - <hyperlink href="im: &lt sip:basudeba.mandal@bt.com &gt">Basudeba Mandal</hyperlink><break/>
+			4) BT TV Headend - <hyperlink href="im: &lt sip:kranti.kundle@bt.com &gt">Kranti Kundle</hyperlink><break/><break/>
+			5) BT TV System Test - <hyperlink href="im: &lt sip:arun.bhilare@bt.com &gt">Arun Bhilare</hyperlink><break/><break/>
+			6) E2E Integration - <hyperlink href="im: &lt sip:vikas.chauhan@bt.com@bt.com &gt">Vikas Chauhan</hyperlink><break/><break/>
+			7) Infra - <hyperlink href="im: &lt sip:chaitanya.vats@bt.com &gt">Chaitanya Vats</hyperlink><break/><break/>
+			8) M and B - <hyperlink href="im: &lt sip:rupesh.ravlekar@bt.com &gt">Rupesh Ravlekar</hyperlink><break/><break/>
+			9) NFT - <hyperlink href="im: &lt sip:binit.sinha@bt.com &gt ">Binit Sinha</hyperlink><break/><break/>
+			10) TDD - <hyperlink href="im: &lt sip:anandshivakant.shukla@bt.com  &gt">Anand Shukla</hyperlink><break/><break/>
+			
+			<id>QB9</id>
+			
+		</template>
+   </category>
+   
+   <category>
+	<pattern>*HEADPHONE*</pattern>
+		<template>
+			Raise a request at following link. <hyperlink href="mailto:https://itsupporttools.accenture.com/itservices/MainForm.aspx" target="_blank">https://itsupporttools.accenture.com/itservices/MainForm.aspx</hyperlink> (and follow steps)<break/> 
+			However before that please check with your Team Leads if thay have an exrta in the inventory.
+			
+			<id>QB10</id>
+			
+		</template>
+   </category>
+   
+   <category>
+	<pattern>*EMPLOYEE DETAILS*</pattern>
+	<template>
+		<hyperlink href="http://people.accenture.com/" target="_blank">http://people.accenture.com/</hyperlink>
+		<id>QB11</id>
+	</template>
+   </category>
+   
+   <category>
+      <pattern>*EMPLOYEE INFORMATION*</pattern>
+      <template><srai>*EMPLOYEE DETAILS*</srai></template>   
+   </category>
+   
+   <category>
+	<pattern>*RULES OR ETHICS*</pattern>
+		<template>
+			Refer to the BT mandatory trainigs on Ethics and compliance. All details will be provided during onboarding.
+			
+			<id>QB12</id>
+			
+		</template>
+   </category>
+   
+   <category>
+      <pattern>*RULES*</pattern>
+      <template><srai>*RULES OR ETHICS*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*ETHICS*</pattern>
+      <template><srai>*RULES OR ETHICS*</srai></template>   
+   </category>
+   
+   <category>
+	<pattern>*WORK RELATED ISSUES*</pattern>
+	<template>
+		Depending on the team you are assigned please contact respective individuals:<break/>
+			1) Automation  - <hyperlink href="im: &lt sip:rajesh.2.singh@bt.com &gt">Rajesh Singh</hyperlink><break/>
+			2) BB and Wi-Fi - <hyperlink href="im: &lt sip:mrigyanka.shubhangi@bt.com &gt">Mrigyanka Shubhangi</hyperlink><break/>
+			3) BT TV Environment Management - <hyperlink href="im: &lt sip:basudeba.mandal@bt.com &gt">Basudeba Mandal</hyperlink><break/>
+			4) BT TV Headend - <hyperlink href="im: &lt sip:kranti.kundle@bt.com &gt">Kranti Kundle</hyperlink><break/><break/>
+			5) BT TV System Test - <hyperlink href="im: &lt sip:arun.bhilare@bt.com &gt">Arun Bhilare</hyperlink><break/><break/>
+			6) E2E Integration - <hyperlink href="im: &lt sip:vikas.chauhan@bt.com@bt.com &gt">Vikas Chauhan</hyperlink><break/><break/>
+			7) Infra - <hyperlink href="im: &lt sip:chaitanya.vats@bt.com &gt">Chaitanya Vats</hyperlink><break/><break/>
+			8) M and B - <hyperlink href="im: &lt sip:rupesh.ravlekar@bt.com &gt">Rupesh Ravlekar</hyperlink><break/><break/>
+			9) NFT - <hyperlink href="im: &lt sip:binit.sinha@bt.com &gt ">Binit Sinha</hyperlink><break/><break/>
+			10) TDD - <hyperlink href="im: &lt sip:anandshivakant.shukla@bt.com  &gt">Anand Shukla</hyperlink><break/><break/>
+		
+		<id>QB13</id>
+			
+	</template>
+   </category>
+   
+   <category>
+      <pattern>*WORK ISSUES*</pattern>
+      <template><srai>*WORK RELATED ISSUES*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*ISSUES OF WORK*</pattern>
+      <template><srai>*WORK RELATED ISSUES*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*ISSUES RELATED TO WORK*</pattern>
+      <template><srai>*WORK RELATED ISSUES*</srai></template>   
+   </category>
+   
+   <category>
+	<pattern>*LEAVE*</pattern>
+	<template>
+		Leave request to be raised at following Link:<hyperlink href="https://ast.accenture.com/atlas/Template/wfrmTemplate.aspx" target="_blank">https://ast.accenture.com/atlas/Template/wfrmTemplate.aspx</hyperlink>
+		<id>QB14</id>
+	</template>
+   </category>
+   
+   <category>
+	<pattern>*PROJECT INFORMATION*</pattern>
+		<template>BT TV App Testing/Dev.</template>
+   </category>
+   
+   <category>
+      <pattern>*INFORMATION OF PROJECT*</pattern>
+      <template><srai>*PROJECT INFORMATION*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*INFORMATION REGARDING PROJECT*</pattern>
+      <template><srai>*PROJECT INFORMATION*</srai></template>   
+   </category>
+   
+   <category>
+	<pattern>*CLIENT AND DELIVERY*</pattern>
+	<template>
+		British Telecom. We delIver solutions.
+		<id>QB15</id>
+	</template>
+   </category>
+   
+   <category>
+      <pattern>*CLIENT INFORMATION*</pattern>
+      <template><srai>*CLIENT AND DELIVERY*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*DELIVERY INFORMATION*</pattern>
+      <template><srai>*CLIENT AND DELIVERY*</srai></template>   
+   </category>
+   
+   
+   <category>
+	<pattern>*ROLE OF MANDATORY TRAINING*</pattern>
+		<template>
+			These trainings are a part of compliance and as pert Accentures contract with BT every individual needs to be compliant.
+			<id>QB16</id>
+		</template>
+   </category>
+</aiml>

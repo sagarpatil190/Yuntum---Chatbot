@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+<category>
+      <pattern>NETWORK TOPOLOGY</pattern>
+	   <template>
+         Please refer the below diagram of Network Topology
+		 <img src="topology.png" width="320" height="240"/>
+		 <id>TV2</id>
+      </template>
+      
+	</category>
+	
+	 <category>
+      <pattern>*NETWORK DEVICES * CONNECTED TO EACH OTHER*</pattern>
+      <template><srai>NETWORK TOPOLOGY</srai></template>   
+   </category>
+    <category>
+      <pattern>*NETWORK TOPOLOGY*</pattern>
+      <template><srai>NETWORK TOPOLOGY</srai></template>   
+   </category>
+	
+   <category>
+      <pattern>*ENCODER*</pattern>
+      <template>
+         Encoder converts analog feed into multicast IP packets and it carries out compression as well.
+		 <id>HE1</id>
+      </template>
+      
+   </category>
+   <category>
+      <pattern>*MULTICAST*</pattern>
+      <template>
+          Multicast is communication between a single sender and multiple receivers on a network. Multicast is group communication. <break/>
+		  where data transmission is addressed to a group of destination computers simultaneously.
+		  <id>HE2</id>
+      </template>
+     </category>
+    <category>
+      <pattern>*MPEG*</pattern>
+      <template>
+         MPEG is a compression standard used for compressing video and audio files to a smaller physical size, it also handles <break/>
+		 the transmission of these files. Moving Picture Experts Group is the name given to the group of people responsible for <break/>
+		 setting the MPEG standards. There are various adaptations of the MPEG standard each with their own specification and <break/>
+		 usage in the industry.
+		 <id>HE3</id>
+	  </template>
+      
+   </category>  
+   
+   <category>
+		<pattern>*SCRAMBLER*</pattern>
+		<template>
+        Scrambler is used for encryption and decryption of channels and it is integrated with CAS system at the back end.
+		 <id>HE4</id>
+	  </template>
+	</category>  
+	
+	<category>
+      <pattern>*CONNECT DEVICES THROUGH ITEST*</pattern>
+      <template>
+		iTest provides different sessions like SSH, REST API, TELNET, command prompt, By using these sessions we can connect <break/>
+		to network devices through iTest
+		<id>HE5</id>
+	  </template>   
+    </category>
+	
+	
+    <category>
+		<pattern>*PROBES*</pattern>
+		<template>
+		Probes are monitoring devices. It monitors video parameters like PID, CHID, Channel bandwidth etc.
+		<id>HE6</id>
+		</template>   
+	</category>
+
+</aiml>

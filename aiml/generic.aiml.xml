@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+	
+	
+		<pattern>*WHAT IS THE PROJECT ALL ABOUT*</pattern>
+		<template>
+		This project is about testing operational and TV services delivered to BT-TV end customer. <break/>
+		We carry out System Testing, End to End Testing, Headend Testing, Functional Testing, Non-Functional <break/>
+		Testing and Automation Testing to ensure our client is able to deliver excellent business performance.<break/>
+		 <id>GENERIC1</id>
+      </template>  
+	  </category> 
+   <category>
+   
+   
+      <pattern>*DIFFERENT TOOLS WE USE IN BT TV*</pattern>
+      <template>
+		 Major tools used in BT-TV are: <break/>
+		1. Perfecto: For Web and Device Automation Testing<break/>
+		2. CMS: Content Management tool which is used to create, update and edit the Web/App contents<break/>
+		3. Forge: To create or update the DeltaTre IDs for Diva events <break/>
+		4. OneView: To create different type of customers with different subscriptions<break/>
+		5. UUI: Used as user provisioning tool for customer creation.<break/>
+		6. Splunk: All the component activity logs gets captured here<break/>
+		7. Storm: A tool via which we can access our STB (TV) situated at remote location (UK) <break/>
+		8. Bebanjo: Content publishing tool<break/>
+		9. Jira: Used for tracking the scoped in stories for the releases and ticket raised for defects.<break/>
+		10. Wiki: Single source of information for scoped stories for releases and also we can find the design document for all <break/>
+		programs and releases.<break/>
+		11. ALM: For tracking Test Execution and defects status<break/>
+		12. MPX: It’s a console where we can see all details related to content<break/>
+		 <id>GENERIC2</id>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>*WHAT RELEASE METHODOLOGY IS BEING FOLLOWED IN BT TV*</pattern>
+      <template>
+		BT-TV follows Agile Methodology where each sprint is around 2-3 weeks and complete Release is of 2 months. 
+		 <id>GENERIC3</id>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>*CREATE TMS PROFILE*</pattern>
+      <template>
+		Request you to send your details (Employee ID, Email ID, Facility ID, Deal, Entity, Phone and Address) to 
+		Transport Admin or your SPOC, to create your profile in TMS. 
+		 <id>GENERIC4</id>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>*RAISE ADHOC REQUEST IN TMS*</pattern>
+      <template>
+		To book Adhoc cabs, please note the following procedure:<break/>
+		1.Log on to the TMS tool<break/>
+		2.Click on “My TMS"<break/>
+		3.Click on “Raise New Adhoc"<break/>
+		4.Check your employee details such as Employee I.D., Name, Manager’s Name, Facility, Entity, Deal Name and 
+		Address, which get automatically populated and cannot be changed
+		5.Select “Trip Type” (Pick/Drop)<break/>
+		6.Select “Shift"<break/>
+		7.Select the reason for Adhoc<break/>
+		8.Enter the WBS element and click “Submit"<break/>
+		Note: Adhoc 'pick-up' requests must be approved by the manager or nominated approving authority four hours 
+		in advance from the shift selected. Adhoc 'drop-off' requests must be approved by the manager or nominated 
+		approving authority an hour in advance from the shift selected.<break/>
+
+		 <id>GENERIC5</id>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>*DIFFERENT STAKEHOLDERS IN TV*</pattern>
+      <template>
+		BT Stakeholders with respective Teams are as follows:<break/>
+		Sourial JR Miss (Josephine)-Headend  and M and B Team<break/>
+		Daniels I Revd (Ian)- Automation, Infra and Environment<break/>
+		Good NW Mr (Nick)-E2E Test Manager     <break/> 
+		dAjello L Mr (Luca)-TDD and Integration Team<break/>
+		Matavalam K Mr (Kedhar) -E2E Assurance and Integration Director<break/>
+		 <id>GENERIC6</id>
+      </template>     
+   </category>
+   
+   
+   <category>
+      <pattern>*MY LINE MANAGER*</pattern>
+      <template>
+		Line Manager for respective teams are as follows: <break/>
+		Sourial JR Miss (Josephine)-Headend Team and MandB Team<break/>
+		Daniels I Revd (Ian)- Automation, Infra and Environment<break/>
+		Good NW Mr (Nick)-E2E Test Manager   <break/>   
+		dAjello L Mr (Luca)-TDD and Integration Team<break/>
+		Matavalam K Mr (Kedhar) -E2E Assurance and Integration Director<break/>
+		 <id>GENERIC7</id>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>*DU LEAD*</pattern>
+      <template>
+		Balaji Venkatraman is DU lead of BT Retail. For more information on Balaji Venkatraman visit: <break/>
+		<hyperlink target="_blank" href="https://people.accenture.com/People/user/balaji.venkataraman">https://people.accenture.com/People/user/balaji.venkataraman</hyperlink>
+		 <id>GENERIC8</id>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>*MD*</pattern>
+      <template>
+		Shrikant Sarda your MD. For more information on Shrikant Sarda  visit: <break/>
+		<hyperlink target="_blank" href="https://people.accenture.com/People/user/shrikant.sarda">https://people.accenture.com/People/user/shrikant.sarda</hyperlink>
+		 <id>GENERIC9</id>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>*LOBS WE GOT IN BT*</pattern>
+      <template>
+		BT has Five LOBs:<break/>
+		BT-TV: BT TV is an IPTV service provided by BT Plc to customers in United Kingdom With BT Broadband<break/>
+		BT-Retail: The division is responsible for selling consumer services including fixed line , mobile, 
+		broadband and TV.<break/>
+		BT-Global Services: It delivers a combination of communications and IT services to over 5,500 organizations 
+		worldwide.<break/>
+		BT-Wholesale: BT Wholesale and Ventures  provides voice, broadband, data, hosted communication, managed network 
+		and IT services to communications providers (CPs) in Great Britain, including BT's other divisions.<break/>
+		BT-Openreach: The role of Openreach is to deliver Openreach products on an open and even handed basis to any and 
+		all Communications Providers, including BT’s own “downstream” divisions, (BT Wholesale, BT Retail and BT Global Services).
+		 <id>GENERIC10</id>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>*IDEA WALL INITIATIVE*</pattern>
+      <template>
+		 Accenture came up with idea wall initiative where each individual can contribute an innovative idea which improvises 
+		 our current process. You can share your idea on following link: <break/>
+		 <hyperlink target="_blank" href="https://ts.accenture.com/sites/BTE2ETesting/Retail/BCP/Lists/Idea%20Wall_BT%20Retail/AllItems.aspx">https://ts.accenture.com/sites/BTE2ETesting/Retail/BCP/Lists/Idea%20Wall_BT%20Retail/AllItems.aspx</hyperlink>
+		 <id>GENERIC11</id>
+      </template>     
+   </category>
+   
+   
+   <category>
+      <pattern>*FUN COMMITTEE POC*</pattern>
+      <template>
+		Fun committee POCs are:<break/>
+		Rajesh Singh (rajesh.2.singh@bt.com)<break/>
+		Bhisham Malani(bhisham.malani@bt.com)<break/>
+		 <id>GENERIC12</id>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>*ENVIRONMENT PLAN*</pattern>
+      <template>
+		Environment Plan is a high level plan for complete delivery of Release/s with respect to test team.
+		 <id>GENERIC13</id>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>*WHO ARE OUR CLIENTS*</pattern>
+      <template>
+		Our Client is BT-TV. It is an IPTV service provided by BT Plc to customers in United Kingdom with BT Broadband. <break/>
+		At Accenture we responsible to carry out testing for all required services of BT-TV so that our client can deliver 
+		state-of-art services to its customers.<break/>
+		 <id>GENERIC14</id>
+      </template>     
+   </category>
+   
+   <category>
+      <pattern>*WORK DIVIDED BETWEEN TEAMS*</pattern>
+      <template>
+		Work is divided between teams depending on the type of Testing is required:<break/>
+		System Testing: Testing API integration between VOSP components and other Third party service providers to BT<break/>
+		E2E Testing: Customer Experience testing with focus across platforms such as CCP/ VOSP/ Client/ Third Party<break/>
+		Headend Testing: Network testing with focus on customer experience and channel encryption E2E flow<break/>
+		Functional Testing: Testing functionality of all requirements<break/>
+		Non-Functional Testing: Testing related to performance and robustness of the system<break/>
+		Automation Testing: Testing using automation tools to write and execute test cases with no manual involvement.<break/>
+		 <id>GENERIC14</id>
+      </template>     
+   </category>
+</aiml>

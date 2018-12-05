@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+   <category>
+      <pattern>*PORTCULLIS ACCOUNT*</pattern>
+      <template>
+         Portcullis Account is used to access various devices and tools in M and B.
+		 <id>MNB1</id>
+      </template>
+      
+   </category>
+   <category>
+      <pattern>*ACCESS FOR PORTCULLIS*</pattern>
+      <template>
+          Send a mail to bshelpdesk@bt.com to request Portcullis/Citrix account access.
+		  <id>MNB2</id>
+      </template>
+      
+	
+   </category>
+    <category>
+      <pattern>*ACCESS FOR M AND B DEVICES*</pattern>
+      <template>
+         Send a mail to bshelpdesk@bt.com for required access
+		 <id>MNB3</id>
+	  </template>
+      
+   </category>  
+   
+   <category>
+		<pattern>*PLATFORMS USED IN M AND B*</pattern>
+		<template>
+        Various platforms used in M and B are:<break/>
+		Aurora<break/>
+		PLP<break/>
+		CNBC<break/>
+		UKMN/GMN<break/>
+		Racing UK<break/>
+		 <id>MNB4</id>
+	  </template>
+	</category>  
+	
+	<category>
+      <pattern>*OSS TOOLS USED IN M AND B*</pattern>
+      <template>
+		Various tools used in M and B are: <break/>
+		Video iPath<break/>
+		DataMiner<break/>
+		Remedy<break/>
+		GMNS<break/>
+		<id>MNB5</id>
+	  </template>   
+    </category>
+	
+	
+    <category>
+		<pattern>*DEVICES * USED IN M AND B*</pattern>
+		<template>
+		Various devices used in M and B are:<break/>
+		Cisco Nexus<break/>
+		Nevion Devices<break/>
+		Juniper Routers<break/>
+		Adva Devices<break/>
+		<id>MNB6</id>
+		</template>   
+	</category>
+</aiml>

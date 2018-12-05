@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+	 <category>
+      <pattern>*NEW JOINER INDUCTION MANUAL*</pattern>
+      <template>
+         Use Below link to download word file of manual
+		 <hyperlink href="BT Vision New Joiner Induction Manual_V1.1.docx" target="_blank">Click Here </hyperlink>
+		 <id>TV2</id>
+      </template>
+	</category>
+	
+   <category>
+      <pattern>*TDD INTRODUCTION *</pattern>
+      <template>
+         TDD INTRODUCTION VIDEO
+		 <video width="320" height="240" controls>
+			<source src="TDD.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		 <id>TV1</id>
+      </template>
+	</category>
+	
+	 <category>
+      <pattern>*TDD INTRO*</pattern>
+      <template><srai>*TDD INTRODUCTION VIDEO*</srai></template>
+	</category>
+	
+	 <category>
+      <pattern>*AWS TRAINING INSTRUCTION*</pattern>
+      <template>
+         Use Below link to download PDF file of instruction
+		 <hyperlink href="aws_training_instructions.pdf" target="_blank">Click Here </hyperlink>
+		 <id>TV2</id>
+      </template>
+	</category>
+	<category>
+      <pattern>*BT TV ARCHITECTURE*</pattern>
+	   <template>
+         HTML5 OVERALL VOSP ARCHITECTURE
+		 <img src="BTTV_Arch.jpg" width="320" height="240"/>
+		 <id>TV2</id>
+      </template>
+      
+	</category>
+	</category>
+	 <category>
+      <pattern>*HTML5 OVERALL VOSP ARCHITECTURE*</pattern>
+		<template>
+         HTML5 OVERALL VOSP ARCHITECTURE
+		 <ForIE>
+			<object id="MediaPlayer" width="320" height="240" classid="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95" standby="Loading Windows Media Player components..." type="application/x-oleobject">
+				<param name="FileName" value="HTML5_Overall_VOSP_architecture_Venu.wmv">
+				<param name="ShowControls" value="true">
+				<param name="ShowStatusBar" value="false">
+				<param name="ShowDisplay" value="false">
+				<param name="autostart" value="false">
+				<embed type="application/x-mplayer2" src="HTML5_Overall_VOSP_architecture_Venu.wmv" name="MediaPlayer" width="320" height="240" showcontrols="1" showstatusbar="0" showdisplay="0" autostart="0"> </embed>
+			</object>
+		</ForIE>
+		<ForNonIE>
+			<hyperlink href="HTML5_Overall_VOSP_architecture_Venu.wmv">click here to download video</hyperlink>
+		</ForNonIE>
+		 <id>TV4</id>
+      </template>
+	</category>
+	
+</aiml>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+   <category>
+      <pattern>*WHOM SHOULD I REPORT *</pattern>
+      <template>
+         You can report to Mr. Bhisham Malani who is currently Team Lead of NFT as well as Associate Manager of BT Retail. <break/>
+		 You can reach out to Mohit Sharma and Binit Sinha, both are SSE and senior people in NFT. Ashish Kumar is the Manager 
+		 of BT Retail project.
+		 <id>NF1</id>
+      </template>
+      
+   </category>
+   <category>
+      <pattern>*NFT TEAM STRUCTURE *</pattern>
+      <template>
+           Please find NFT team details as follows:
+			Mohit Sharma- BT Sports SSE <break/>
+			Binit Sinha –VOSP (Ref) SSE <break/>
+			Neha Phadtare- NFT all ASE <break/>
+			Nishant Kutade- VOSP (Systest0)SE <break/>
+			Priya Hargapur- VOSP (Ref) ASE <break/>
+			Smita Kamalapurkar-BT Sports ASE <break/>
+			Shubham Bhalerao-VOSP (Ref) ASE <break/>
+			Shubham Sharma- VOSP (Systest0) ASE <break/>
+		  <id>NF2</id>
+      </template>
+      
+	
+   </category>
+    <category>
+      <pattern>*NFT KT*</pattern>
+      <template>
+          You can contact the respective team about the overview of the project and KT sessions to get you going in the project.
+		  <id>NF3</id>
+	  </template>
+      
+   </category>  
+   <category>
+		<pattern>*TOOLS * PERFORMANCE TESTING*</pattern> 
+		<template>
+          Various tools used for Performance testing are:
+			Jmeter and LoadRunner: Used for BT Sports, VOSP Testing<break/>
+			Blazemeter and HPPC: Used for Load testing of scripts<break/>
+			Splunk: Monitoring tool for Reference environment<break/>
+			DynaTrace: Monitoring tool configured in room 101<break/>
+			Master Slave config: For Sys0 testing in Room 101<break/>
+			AWS: used as a Staging in Sys0 and Reference Environment<break/>
+		  <id>NF4</id>
+	  </template>
+	</category>  
+	
+	<category>
+      <pattern>*ACCESS BT TIMESHEET*</pattern>
+      <template>
+		Please refer to BT sheet on following URL - 
+		<hyperlink target="_blank" href="https://ts.accenture.com/sites/BTE2ETesting/Retail/BCP/Lists/TimesheetMar2018/AllItems.aspx" >https://ts.accenture.com/sites/BTE2ETesting/Retail/BCP/Lists/TimesheetMar2018/AllItems.aspx</hyperlink>
+		<id>NF5</id>
+	  </template>   
+    </category>
+	
+	
+    <category>
+		<pattern>*FILL BT TIMESHEET*</pattern>
+		<template>
+		Please refer following steps: 
+		1. Visit 
+		<hyperlink target="_blank" href="https://ts.accenture.com/sites/BTE2ETesting/Retail/BCP/Lists/TimesheetMar2018/AllItems.aspx" >https://ts.accenture.com/sites/BTE2ETesting/Retail/BCP/Lists/TimesheetMar2018/AllItems.aspx</hyperlink><break/>
+		2. Open timesheet link with your Accenture credentials <break/>
+		3. Click on New item.<break/>
+		4. Fill out all fields: work stream- NFT, Project release-NFT- BT TV, Activity –Test Preparations, Task – Test Preparation-Scenario/Script, Actual hours (9 hours) and change the Reporting date accordingly.
+		   **If you are on vacation/ Sick leave/ public holiday please change following fields accordingly: 
+		   Activity – Miscellaneous and Task as Vacation/ Illness/Public Holiday/Optional Holiday <break/>
+		5. Click on Save.<break/>
+		<id>NF6</id>
+		</template>   
+	</category> 
+	
+	<category>
+		<pattern>TEST ENVIRONMENTS IN BT RETAIL</pattern>
+		<template>
+		We do Testing for BT Retail- STB and TVE components.<break/>
+		We have 6 testing environments across which we do testing.<break/>
+		Name of environments and the current sprint number they are in.<break/>
+		Sys1 (Sp N+2)<break/>
+		Sys0 (Sp N+1)<break/>
+		Vol E (Sp N+1)<break/>
+		Ref (NFT Team Works here, Sp N)<break/>
+		Production ( Live environment Sp N-1)<break/>
+		Vol D (Sp N-1)<break/>
+		Note: N denotes sprint number<break/>
+
+		<id>NF7</id>
+		</template>   
+	</category> 
+	<category>
+		<pattern>*TESTING ENVIRONMENTS * BT*</pattern>
+		<template>
+		 <template><srai>TEST ENVIRONMENTS IN BT RETAIL</srai></template>   
+	</template>   
+	</category>
+	<category>
+		<pattern>*TEST ENVIRONMENTS * BT*</pattern>
+		<template>
+		 <template><srai>TEST ENVIRONMENTS IN BT RETAIL</srai></template>   
+	</template>   
+	</category>	
+	
+	<category>
+		<pattern>*EXPECTED FROM ME * NFT*</pattern>
+		<template>
+		Here's a checklist of what’s expected from you: 
+		1. Get familiar with Performance Testing. <break/>
+		2. Learn to use Testing tools LoadRunner and Jmeter. Coordinate with respective team members for installation and how to use.<break/>
+		3. Script Creation- understanding end user scenario and learn to simulate it by Scripting. Contact respective team members if you need any help.<break/>
+		4. To provide support during actual testing. <break/>
+		<id>NF8</id>
+		</template>   
+	</category> 
+   
+</aiml>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+	<category>
+		<pattern>*MY SALARY IF I WILL UPDATE MY ACCOUNT NUMBER AFTER 22ND OF THE MONTH*</pattern>
+		<template>
+				It's best to update the bank details as soon<break/>
+				as you're onboarded - and definitely by the <break/>
+				22nd of the month.<break/>
+				Go here: <break/>
+				<hyperlink href="https://smartpay.allsectech.com/Accenturelogin/SmartLogic/memberlogin.aspx" target="_blank">https://smartpay.allsectech.com/Accenturelogin/SmartLogic/memberlogin.aspx</hyperlink><break/>
+				and follow the path<break/>
+				Allsec -> Utilities -> Master Setup -> Bank Account Details.<break/>
+				This way, you will have your salary credit in<break/> 
+				the same month. However, if you're unable to do<break/>
+				this before the	22nd of the month, don't worry! <break/>
+				Your salary will be credited by the 7th of the <break/>
+				following month and will appear in that month's pay slip.<break/>
+				The account number details will also start showing<break/>
+				on your salary slip from the subsequent month.<break/>
+				Remember - all payments (salary, reimbursement) will<break/>
+				be made to a single account and that account must be<break/>
+				in your name only.<break/>
+
+			<id>COMPBEN1</id>
+				
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WHAT IS TAX DECLARATION AND WHY WE NEED TO SUBMIT THE TAX PROOF*</pattern>
+		<template>
+				Let me focus on this for a moment.<break/>
+				To avail tax exemption and reduce tax liability, you<break/>
+				will need to declare investments in the beginning of<break/>
+				the financial year. At the end of the financial year,<break/>
+				you will be required to submit your investment proof<break/>
+				documents to retain the tax exemptions.<break/>
+				The investments done during the respective income tax<break/>
+				financial year April to March can be claimed for a tax<break/>
+				benefit. Have fun tax planning!<break/>
+				
+			<id>COMPBEN2</id>
+				
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WHO WILL BE ELIGIBLE TO RECEIVE BASE PAY INCREASE ON 1ST DEC 2017*</pattern>
+		<template>
+				Any employee who joined on or before 30th April 2017 is<break/>
+				eligible for a base pay increase for Levels 11 and above.<break/>
+				For Level 12 and 13 - 1st December 2016 is the cut-off date.<break/>
+				
+			<id>COMPBEN3</id>
+				
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WHERE CAN I VIEW MY FINAL REWARDS DECISIONS*</pattern>
+		<template>
+				Final Rewards details post December cycle will be available on<break/>
+				1.Allsec - via Base pay and Variable pay letters, The revised<break/>
+				compensation details by component will be available on the<break/>
+				Compensation statement.<break/>
+				2.You will also be able to view - Talent outcome and<break/>
+				Compensation statement on Performance Achievement tool.<break/>
+				Both will get released by November end/ December 1st week.<break/>
+				The compensation plan will be enabled on Allsec Portal in<break/>
+				first week of December.<break/>
+				
+			<id>COMPBEN4</id>
+				
+		</template>
+	</category>
+
+	<category>
+		<pattern>*WHAT ARE THE FACTORS THAT AFFECT MY HIKE*</pattern>
+		<template>
+				Base pay hike is determined by your performance and<break/>
+				gap from market target for your role/ level. Variable<break/>
+				pay awards are determined by your performance in the<break/>
+				past period.<break/>
+				
+			<id>COMPBEN5</id>
+				
+		</template>
+	</category>
+
+	<category>
+		<pattern>*HOW DO I KNOW IF MY SKILL IS NEXT GEN ELIGIBLE AND I WILL GET THE BONUS*</pattern>
+		<template>
+				All employees who are eligible and not eligible for <break/>
+				Next Gen will receive a Next Gen letter through AllSec<break/>
+				by Dec 1st week. The Next Gen skills are not listed anywhere.<break/>
+				It applies to levels 8 to 11 only, based on primary skill<break/>
+				mapping (as per mycompetency of given cut-off date).<break/>
+				CL11 will get eligible for the program once they have<break/>
+				completed at least 1 year in the organization/ post<break/>
+				promotion from CL12 to 11. <break/>
+				
+			<id>COMPBEN6</id>
+				
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*NPS*</pattern>
+		<template>
+			Thinking and planning ahead, my friend? Lets get this going.<break/>
+			National Pension System (NPS) is a voluntary, retirement<break/>
+			savings scheme initiated by the Government of India. It has<break/>
+			been designed to enable systematic savings during an employee's<break/>
+			working life. It is an attempt at finding a sustainable solution<break/>
+			to provide adequate retirement income which is low cost,<break/>
+			tax-efficient and flexible.<break/>
+			I am around if you need me for any other information.<break/>
+			
+		<id>COMPBEN7</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WHEN DOES THE VARIABLE PAYOUT HAPPEN FOR ATC EMPLOYEES*</pattern>
+		<template>
+			For Career Level 8 to 13 employees, the variable payout<break/>
+			happens Biannually.H1 Cycle: September to February: Payout<break/>
+			in JuneH2 Cycle: March to August: Payout in DecemberFor Career<break/>
+			Level 5-7 employees, the variable payout happens annually in<break/>
+			the month of December for the cycle September to August.<break/>
+			
+		<id>COMPBEN8</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WHAT DO I DO IF MY UTILIZATION IS 0 DUE TO BEING SHADOW LOCKED; HOW DOES THIS IMPACT MY VARIABLE PAY*</pattern>
+		<template>
+			If the utilization is zero then your variable payout will<break/>
+			be impacted, since UT is one of the factors considered to<break/>
+			compute eligible earning. The floor value in terms of<break/>
+			utilization is 52.6percentage (50percentage/95percentage)<break/>
+			and the ceiling is 115.8percentage (110percentage/95percentage)<break/>
+			will be applied for calculation of eligible earning.<break/>
+			95percentage is the target utilization.<break/>
+			
+		<id>COMPBEN9</id>
+			
+		</template>
+	</category>
+
+</aiml> 

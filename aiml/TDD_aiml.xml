@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+   <category>
+      <pattern>*TDD IS PERFORMED*</pattern>
+		<template>
+          TDD is performed before start of Testing in respective Test Teams
+		  <id>TD2</id>
+		</template>
+   </category>
+   
+   <category>
+      <pattern>*ASPECTS * COVERED IN TDD*</pattern>
+         <template>
+          TDD assessment identifies all Dependency, Discrepancies,<break/>
+		  Testability, Non-Functional Requirements ,Acceptance criteria's<break/>
+		  Quality and Scope of Testing before start of testing<break/>
+		  <id>TD2</id>
+		  
+      </template>
+   </category>
+   
+   <category>
+      <pattern>*SKILLS * TDD*</pattern>
+      
+      <template>
+          Yes, an individual would need functional knowledge of  Products
+		  <id>TD3</id>
+		  
+      </template>
+   </category>
+   
+   <category>
+      <pattern>*WHY IS TDD PERFORMED*</pattern>
+      
+      <template>
+          TDD is performed to identify the early dependency<break/> 
+		  and infrastructure setup required for Testing  and to<break/> 
+		  call out Risk and issues with delivery and designers<break/>
+		  <id>TD4</id>
+		  
+      </template>
+   </category>
+   
+   <category>
+      <pattern>*WHAT ARE RIA AND PRD*</pattern>
+      
+      <template>
+          RIA (Rapid Impact Assessment) defines the high<break/> 
+		  level scope of Project and PRD (Product Requirement<break/> 
+		  Document) defines the requirement of Project. I.e. Acceptance<break/>
+		  criteria of a project/Program.<break/>
+		  <id>TD5</id>
+		  
+      </template>
+   </category>
+   
+   <category>
+      <pattern>*SPM MEETING*</pattern>
+      
+      <template>
+          SPM is Sprint Planning Meeting in which the<break/>
+		  scope is finalized for particular release.<break/>
+		  <id>TD6</id>
+		  
+      </template>
+   </category>
+   
+   <category>
+      <pattern>*HOW MANY SPRINTS*</pattern>
+      
+      <template>
+          Sprints are decided depending upon the scope and<break/> 
+		  bandwidth available with Dev team. There are usually<break/>
+		  3 or 4 sprints in a release.<break/>
+		  <id>TD7</id>
+		  
+      </template>
+   </category>
+   
+   <category>
+      <pattern>*STEEL THREAD SCENARIOS*</pattern>
+      
+      <template>
+          Steel thread scenarios consist of high<break/>
+		  level and critical scenarios of a product/feature.<break/>
+		  <id>TD8</id>
+		  
+      </template>
+   </category>
+   
+   <category>
+      <pattern>*PARAMETERS * TDD*</pattern>
+      
+      <template>
+          Parameters used for TDD assessment are: <break/> 
+		  Dependency<break/> 
+		  Discrepancies<break/> 
+		  Testability<break/> 
+		  Non-Functional Requirements<break/>
+		  Acceptance criteria's Quality and Scope of Testing.<break/>
+		  <id>TD9</id>
+		  
+      </template>
+   </category>
+   
+   <category>
+      <pattern>*DIFFERENCE BETWEEN TVSP, EDA AND RMID*</pattern>
+      
+      <template>
+          TVSP and EDA's consist of Acceptance criteria for a<break/> 
+		  feature where as RMID refer to any change request or any<break/> 
+		  Environment setup required for Testing. TVSP's are tested<break/> 
+		  by SysTest team and EDA's are by E2E Team.<break/>
+		  <id>TD10</id>
+		  
+      </template>
+   </category>
+   
+   <category>
+      <pattern>*WHAT IS INTEGRATION TESTING*</pattern>
+      
+      <template>
+          Integration Testing is performed after TDD assessment<break/> 
+		  for testing critical and high level scenarios<break/> 
+		  for particular features.<break/>
+		  <id>TD11</id>
+		  
+      </template>
+	</category>  
+   <category>
+      <pattern>*DIFFERENCE BETWEEN PROGRAM LEVEL AND RELEASE LEVEL TDD*</pattern>
+      <template>
+	  Program level assessment is done for<break/> 
+	  any new project or features whereas Release<break/> 
+	  assessment is done for releases and their<break/> 
+	  respective Sprints.<break/>
+	  <id>TD12</id>
+	  </template>   
+   </category>
+
+   <category>
+      <pattern>*WHAT IS SYSTEM TESTING*</pattern>
+      <template>
+	  System Testing consists of Component<break/> 
+	  and API level Testing i.e. backend Testing.<break/>
+	  <id>TD13</id>
+	  </template>   
+   </category>
+   
+   <category>
+      <pattern>*ENVIRONMENT USED FOR TESTING*</pattern>
+      <template>
+	  There are several environments available<break/> 
+	  for Testing they are VOLE, VOLD, Sys-0, Sys-1,<break/> 
+	  Reference, and Production.<break/>
+	  <id>TD14</id>
+	  </template>   
+   </category>
+   
+   <category>
+      <pattern>*DESIGN DOCUMENTS REQUIRED FOR TDD ASSESSMENT*</pattern>
+      <template>
+	  Feature Design, Component Design<break/> 
+	  and Interface Design documents are<break/> 
+	  required for TDD Assessment.<break/>
+	  <id>TD15</id>
+	  </template>   
+   </category>
+   
+   <category>
+      <pattern>*TDD QUALITY SCORE IN TDD ASSESSMENT*</pattern>
+      <template>
+	  TDD Quality score defines the quality of<break/> 
+	  stories and it comprise of EDA, Design ,<break/>
+	  Non-Functional Requirements and Acceptance<break/> 
+	  criteria's availability also  Testability of Stories,<break/>
+	  Dependency and impacted components for that stories.<break/>
+	  <id>TD16</id>
+	  </template>   
+   </category>
+   
+   <category>
+      <pattern>*USE OF JIRA*</pattern>
+      <template>
+	  JIRA Portal is used for tracking the scoped<break/> 
+	  in stories for the releases and ticket raised for defects.<break/>
+	  <id>TD17</id>
+	  </template>   
+   </category>
+   
+   <category>
+      <pattern>*USE OF WIKI PORTAL*</pattern>
+      <template>
+	  Wiki is considered as single source of information<break/> 
+	  for scoped stories for releases and also we can find<break/> 
+	  the design document for all programs and releases.<break/>
+	  <id>TD18</id>
+	  </template>   
+   </category>
+   
+    <category>
+      <pattern>*WHAT IS TDD*</pattern>
+		  <template>TDD is Test Driven Design
+			<id>TD1</id>
+		  </template>   
+   </category>
+   
+   </aiml>

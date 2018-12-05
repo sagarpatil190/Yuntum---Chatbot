@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>	
+	<category>
+		<pattern>*HELLO*</pattern>
+		<template>Hi
+				<id>greetings_1</id>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*HI*</pattern>
+		<template><srai>*HELLO*</srai></template>
+	</category>
+	
+	<category>
+		<pattern>*HOW ARE YOU*</pattern>
+		<template>Doing well. Hope you're doing well too. Anyway, how can I help you?</template>
+	</category>
+	
+	<category>
+		<pattern>*TELL ME ABOUT YOURSELF*</pattern>
+		<template>I am a Bot designed to help you with some doubts you may have at work.</template>
+	</category>
+	
+	<category>
+		<pattern>*HOW CAN YOU HELP*</pattern>
+		<template><srai>*TELL ME ABOUT YOURSELF*</srai></template>
+	</category>
+	
+	<category>
+		<pattern>*WHAT'S UP*</pattern>
+		<template><srai>*HOW ARE YOU*</srai></template>
+	</category>
+	
+	<category>
+		<pattern>*WHAT ARE YOU*</pattern>
+		<template><srai>*TELL ME ABOUT YOURSELF*</srai></template>
+	</category>
+	
+	<category>
+		<pattern>*GOOD MORNING*</pattern>
+		<template>Good Morning, how may I help you?</template>
+	</category>
+	
+	<category>
+		<pattern>*GOOD EVENING*</pattern>
+		<template>Good evening, how may I help you?</template>
+	</category>
+
+	<category>
+		<pattern>*GOOD AFTERNOON*</pattern>
+		<template>Good afternoon, how may I help you?</template>
+	</category>
+
+	<category>
+		<pattern>*GOOD DAY*</pattern>
+		<template>Good day, how may I help you?</template>
+	</category>
+
+	<category>
+		<pattern>*BORED*</pattern>
+		<template>Yeah well me too</template>
+	</category>
+
+</aiml>

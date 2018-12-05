@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>	
+	<category>
+		<pattern>*APPLY FOR IJP ROLES*</pattern>
+		<template>
+			Here's what you should know before applying for onshore or offshore<break>
+			opportunities. For applying to any of the open offshore roles posted<break>
+			on the Internal Job Postings (IJP) portal, you should be at career<break> 
+			level 11 or above. It is mandatory for you to have spent at least 24<break>
+			months in Delivery centers for Technology in India, before you apply<break> 
+			to an onshore role. If you are currently on GCP, you can apply for<break>
+			opportunities/roles in the same country once your current project<break>
+			roll off date is 4 weeks from the date of application. Go for it!<break>
+			
+			<id>SAIP1</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*HOW MANY ROLES CAN AN EMPLOYEE APPLY THROUGH THE IJP TOOL*</pattern>
+		<template>
+			You can apply for up to 5 Internal Job Posting (IJP) roles<break>
+			at any given point in time. Once any of your previous application(s)<break>
+			is rejected, you can apply for more, but your total active applications<break>
+			can never exceed 5<break>
+			
+			<id>SAIP2</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*CAN AN EMPLOYEE WITHDRAW HIS / HER APPLICATION AGAINST AN IJP*</pattern>
+		<template>
+			Once you submit your application on the Internal Job Postings (IJP) portal,<break>
+			there is no provision for you to withdraw the same.<break>
+			
+			<id>SAIP3</id>
+		 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*IS THE EMPLOYEE EXPECTED TO INFORM THE SUPERVISOR WHILE APPLYING FOR A ROLE THROUGH IJP*</pattern>
+		<template>
+			If you are applying for any role through the Internal Job Postings (IJP) portal,<break> 
+			it is best to keep your supervisor or the Delivery Unit Lead (DUL) informed to ease<break>
+			the approval process. Once you are confirmed for the role, your DUL will receive a<break>
+			notification to approve your release.<break>
+			
+			<id>SAIP4</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*CAN I APPLY FOR ROLES AT ONE LEVEL ABOVE MY CAREER LEVEL*</pattern>
+		<template>
+			Your career aspiration and growth is at the heart of Accenture.<break> 
+			Based on your role aspiration and skill suitability, you can always<break>
+			apply for a role one level above your current career level. Your further<break>
+			selection process would be carried out by the corresponding hiring manager<break>
+			
+			<id>SAIP5</id>
+			
+		</template>
+		
+		
+		
+	</category>
+	
+	<category>
+		<pattern>*WHAT ARE THE GUIDELINES OF ROLL OF AFTER 18 MONTHS OF BEING IN THE PROJECT*</pattern>
+		<template>
+			Looking for new challenges? Totally the Accenture way! Ideally<break>
+			all employees completing 18 months in a project are eligible to<break>
+			request Roll Off from the project. Go ahead and speak with your Project Manager (PM)<break>
+			or DU Lead (DUL) about your career aspirations and explore options.<break>
+			They will share a plan and next steps with you, based on your discussions.<break>
+			Then you're all set.<break>
+			
+			<id>SAIP6</id>
+
+		</template>
+	</category>
+	<category>
+	
+		<pattern>*LOCK STATUS*</pattern>
+		<template>
+			Here is what I found. To check on your lock status:<break>
+				1.Log on to the Atlas tool (AST) <hyperlink href="https://ast.accenture.com" target="_blank">https://ast.accenture.com</hyperlink><break>
+
+				2.Click on My profile and go to Office details.<break>
+				
+			<id>SAIP7</id>
+
+		</template>
+	</category>
+	
+	<category>
+	
+		<pattern>*ROLL-OFF DATE*</pattern>
+		<template>
+			In case of any discrepancy your Supervisor will be able to help you with your roll-off date details.
+			
+			<id>SAIP8</id>
+			
+		</template>
+	</category>
+	
+	<category>
+	
+		<pattern>*WHILE IN ITP OR AG HOLDING , IS IT NECESSARY THAT I REPORT TO OFFICE EVERY DAY*</pattern>
+		<template>
+			I get where you're coming from. It is mandatory to report to office<break>
+			every day whether you are with a project or on Internal Talent Pool(ITP).<break>
+			Unauthorized absence is a violation of Accenture policy.If you need to go<break>
+			on leave, you need your Supervisor's approval in advance.<break>
+			
+			<id>SAIP9</id>
+
+		</template>
+	</category>
+	
+	<category>
+	
+		<pattern>*WHERE WILL I BE SEATED WHILE I AM ALIGNED TO ITP*</pattern>
+		<template>
+			It's all taken care of. So, ideally, you will receive an email notification<break>
+			from the Capacity Planning team on seating arrangement. To enable you to participate<break>
+			in Internal Talent Pool (ITP) activities, you will be seated in an ITP or Account Group(AG)<break>
+			holding bay in your location along with other ITP members. If you are with ITP and<break>
+			don’t have your workstation details, your ITP Supervisor will guide you on how to<break>
+			find these details. If you are assigned to a project, contact your Supervisor<break>
+			for workstation details. Alternatively you can look up workstation details on the<break>
+			Capacity Planning page <hyperlink href="https://india.acp.accenture.com" target="_blank">https://india.acp.accenture.com</hyperlink>. You may also call their<break> 
+			Point of Contact (POC) <hyperlink href="capacityplanning@accenture.com">capacityplanning@accenture.com</hyperlink><break>
+			No matter where you sit, I'm right there - omnipresent and all!<break>
+			
+			<id>SAIP10</id>
+
+		</template>
+	</category>
+	
+	<category>
+	
+		<pattern>*WHERE SHOULD I CHARGE TIME WHEN I AM IN ITP OR AG HOLDING*</pattern>
+		<template>
+			If you have received communication on your alignment to Internal Talent Pool<break>
+			Delivery Unit (ITP DU), then you need to charge time to ITP WBSe. Do talk to<break>
+			your ITP Supervisor to understand the various activities that you can get<break>
+			involved in while on ITP. Each activity has a different WBSe aligned to it. Go for it!<break>
+			
+			<id>SAIP11</id>
+			
+		</template>
+	</category>
+	
+	<category>
+	
+		<pattern>*WHEN WILL I BE STAFFED ON A PROJECT*</pattern>
+		<template>
+			You will receive an email confirmation from ATC (Advanced Technology Center)<break>
+			Scheduling team when you are staffed on a project. The Scheduling team helps<break>
+			match open project opportunities to your skill, level and location.<break>
+			If you need more information, do get in touch with your Internal Talent Pool(ITP)<break>
+			Delivery Unit (DU) lead.<break>
+			
+			<id>SAIP12</id>
+			
+		</template>
+	</category>
+	
+	<category>
+	
+		<pattern>*WHAT IS THE STAFFING REFUSAL PROCESS*</pattern>
+		<template>
+			When a project wants to lock an employee for a specific opportunity, but the employee refuses<break>
+			to take it up, that's a case of 'staffing refusal'. The refusal is validated by the HR People<break>
+			Advisor as 'Valid' / 'Invalid' or 'Ready for opportunity'. If the employee's reasons for<break>
+			refusing are found to be invalid, he/she is issued a warning letter. Three or more refusals<break>
+			to projects in a year, with invalid reasons, can lead to termination from employment.<break>
+			
+			<id>SAIP13</id>
+			
+		</template>
+	</category>
+	
+	<category>
+	
+		<pattern>*WHAT ARE THE DIFFERENT LOCK STATUSES*</pattern>
+		<template>
+			The various lock statuses are-<break>
+			1.Hard Lock (HL) - Confirmed allocation of an employee to a project.<break>
+
+			2.Soft Lock - Unconfirmed/predicted lock to a project, this will need<break>
+			to be confirmed by the project team to a Hard lock<break>
+
+			3.Bench (ITP) – The employee is not yet assigned to any specific project as yet.<break>
+
+			4.AG Holding Place - Employee's project lock status is on hold by the last IG that<break>
+			employee was hard locked to for another 4 weeks.<break>
+			
+			<id>SAIP14</id>
+			
+		</template>
+	</category>
+	
+	<category>
+	
+		<pattern>*WHAT DO I NEED TO DO TO SEEK FEEDBACK FOR THE TENURE SPENT IN ITP OR AG HOLDING WILL THIS BE ACCOUNTED FOR DURING THE ANNUAL PERFORMANCE ACHIEVEMENT PROCESS*</pattern>
+		<template>
+			I hear your concern Sumant. Here's what you can do.<break>
+			Do get feedback from your ITP Supervisor or Location Lead<break>
+			for your contribution while on ITP on the Performance Achievement tool 
+			<hyperlink href="performance.accenture.com" target="_blank">performance.accenture.com</hyperlink><break>
+			When you get hard locked to a project, you can share this feedback with<break>
+			your current Supervisor who will represent you in the annual performance process.<break>
+			The good news is that contribution towards ITP activities will be considered<break>
+			and assessed along with your other achievements as part of the Annual<break>
+			performance process. Go ahead, you can make a mark here!<break>
+			
+			<id>SAIP15</id>
+			
+		</template>
+	</category>
+	
+</aiml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

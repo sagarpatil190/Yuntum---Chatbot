@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+   <category>
+      <pattern>BEBANJO STAGING URL</pattern>
+      
+      <template>Below is the URL which I Found
+                                  <hyperlink href="https://staging-movida.bebanjo.net/schedule" target="_blank">https://staging-movida.bebanjo.net/schedule</hyperlink>
+                                  <id>URL1</id>
+                </template>
+      
+   </category>
+   
+   <category>
+      <pattern>*BEBANJO STAGING URL*</pattern>
+      <template><srai>BEBANJO STAGING URL</srai></template>   
+   </category>
+   <category>
+      <pattern>*BEBANJO STAGING IP*</pattern>
+      <template><srai>BEBANJO STAGING URL</srai></template>   
+   </category>
+   <category>
+      <pattern>*BEBANJO URL VOLE*</pattern>
+      <template><srai>BEBANJO STAGING URL</srai></template>   
+   </category>
+    <category>
+      <pattern>*BEBANJO VOLE URL*</pattern>
+      <template><srai>BEBANJO STAGING URL</srai></template>   
+   </category>  
+   <category>
+      <pattern>*BT SPORTS PRODUCTION URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://sport.bt.com/" target="_blank">http://sport.bt.com/</hyperlink>
+	  <id>URL2</id>
+	  </template>   
+   </category>
+   <category>
+      <pattern>*BT SPORTS VOLTEST URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://sport.voltest.bt.com/" target="_blank">http://sport.voltest.bt.com/</hyperlink>
+	  <id>URL3</id>
+	  </template>   
+   </category>
+   <category>
+      <pattern>*GOTHAM URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://sport.gotham.bt.com/" target="_blank">http://sport.gotham.bt.com/</hyperlink>
+	  <id>URL4</id>
+	  </template>	  
+   </category>		
+   <category>
+      <pattern>*UUI VOLE URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://uui-vole.btvision.nat.bt.com/" target="_blank">http://uui-vole.btvision.nat.bt.com/</hyperlink>
+	  <id>URL5</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*UUI VOLD URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://uui-vold.btvision.nat.bt.com/" target="_blank">http://uui-vold.btvision.nat.bt.com/</hyperlink>
+	  <id>URL6</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*SPLUNK VOLE IP*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://10.80.28.49:8080/en-GB/account/login" target="_blank">http://10.80.28.49:8080/en-GB/account/login</hyperlink>
+	  <id>URL7</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*SPLUNK VOLD IP*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://10.80.28.49/" target="_blank">http://10.80.28.49/</hyperlink>
+	  <id>URL8</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*MPX URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="mpx.theplatform.eu/" target="_blank">mpx.theplatform.eu/</hyperlink>
+	  <id>URL9</id>
+	  </template>	  
+   </category>
+   
+   <category>
+      <pattern>*BEBANJO(PREPROD) URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="https://preproduction-movida.bebanjo.net/schedule" target="_blank">https://preproduction-movida.bebanjo.net/schedule</hyperlink>
+	  <id>URL10</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*Systest UUI URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://10.80.28.24:8080/Siteminder/" target="_blank">http://10.80.28.24:8080/Siteminder/</hyperlink>
+	  <id>URL11</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*STORMTEST 47 IP*</pattern>
+      <template>
+	  IP:10.80.28.50
+	  <id>URL12</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*STORMTEST 48,49 IP*</pattern>
+      <template>IP:10.80.28.52
+	  <id>URL13</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*JIRA URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="https://jira.tvac.bt.co.uk/login.jsp" target="_blank">https://jira.tvac.bt.co.uk/login.jsp</hyperlink>
+	  <id>URL14</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*SFG LINK VOLD URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://193.113.227.75/btvo/xml/product/movida_527772.xml" target="_blank">http://193.113.227.75/btvo/xml/product/movida_527772.xml</hyperlink>
+	  <id>URL15</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*SFG LINK VOLE URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://193.113.227.57/btvo/xml/product/movida_52617.xml" target="_blank">http://193.113.227.57/btvo/xml/product/movida_52617.xml</hyperlink>
+	  <id>URL16</id>
+	  </template>	  
+   </category>	
+	<category>
+      <pattern>*SPLUNK SYSTEST URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://10.101.41.32:8000/en-GB/app/launcher/home" target="_blank">http://10.101.41.32:8000/en-GB/app/launcher/home</hyperlink>
+	  <id>URL17</id>
+	  </template>	  
+   </category>
+   
+   
+   
+   
+	<category>
+      <pattern>*SYSTEST UUI URL*</pattern>
+      <template>Below is the URL which I Found	  
+	   <hyperlink href="http://10.101.41.39:50100/Siteminder/ " target="_blank">http://10.101.41.39:50100/Siteminder/</hyperlink>
+	  <id>URL18</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*WEBTOP VOLD URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://btplayer-vold.vision.bt.com/bttvweb/#/guide/watchlive" target="_blank">http://btplayer-vold.vision.bt.com/bttvweb/#/guide/watchlive</hyperlink>
+	  <id>URL19</id>
+	  </template>	  
+   </category>
+
+   <category>
+      <pattern>*ALM URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="https://almbt12.saas.hpe.com/qcbin/start_a.jsp" target="_blank">https://almbt12.saas.hpe.com/qcbin/start_a.jsp</hyperlink>
+	  <id>URL20</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*SHAREPOINT URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="https://ts.accenture.com/sites/BTE2ETesting/Retail/BCP/Lists/TimesheetOct2016/AllItems.aspx" target="_blank">https://ts.accenture.com/sites/BTE2ETesting/Retail/BCP/Lists/TimesheetOct2016/AllItems.aspx</hyperlink>
+	  <id>URL21</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*NAVMAN URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://navigationmanager-vole.btvision.nat.bt.com/index.php" target="_blank">http://navigationmanager-vole.btvision.nat.bt.com/index.php</hyperlink>
+	  <id>URL22</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*CIT2 UUI URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://10.101.48.13:50100/Siteminder/" target="_blank">http://10.101.48.13:50100/Siteminder/</hyperlink>
+	  <id>URL23</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*WEBTOP VOLE URL*</pattern>
+      <template>Below is the URL which I Found	  
+	  <hyperlink href="http://btplayer-vole.vision.bt.com/bttvweb/#/login/" target="_blank">http://btplayer-vole.vision.bt.com/bttvweb/#/login/</hyperlink>
+	  <id>URL24</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*PERFECTO CLOUD URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="https://bttv.perfectomobile.com/nexperience" target="_blank">https://bttv.perfectomobile.com/nexperience</hyperlink>
+	  <id>URL26</id>
+	  </template>	  
+   </category>
+
+   <category>
+      <pattern>*SPLUNK VOLE URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://10.101.40.42:8000/en-GB/app/search/search?earliest=-15m&latest=now&q=search%20index%3Dvole%2086.154.51.172%20sourcetype%3Dlocationmanager&display.page.search.mode=fast&dispatch.sample_ratio=1&sid=1517990188.111750" target="_blank">http://10.101.40.42:8000/en-GB/app/search/search?earliest=-15m&latest=now&q=search%20index%3Dvole%2086.154.51.172%20sourcetype%3Dlocationmanager&display.page.search.mode=fast&dispatch.sample_ratio=1&sid=1517990188.111750</hyperlink>
+	  <id>URL28</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*MPX URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://mpx.theplatform.com/#/?account=2688059823" target="_blank">http://mpx.theplatform.com/#/?account=2688059823</hyperlink>
+	  <id>URL29</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*JIRA NEW LINK URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="https://jira.tvac.bt.co.uk/secure/RapidBoard.jspa?rapidView=427&projectKey=AUTO&view=detail&selectedIssue=AUTO-38" target="_blank">https://jira.tvac.bt.co.uk/secure/RapidBoard.jspa?rapidView=427&projectKey=AUTO&view=detail&selectedIssue=AUTO-38</hyperlink>
+	  <id>URL30</id>
+	  </template>	  
+   </category>
+   <category>
+      <pattern>*DAILY SANITY URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="http://10.80.26.95:8000/dailysanity.aspx" target="_blank">http://10.80.26.95:8000/dailysanity.aspx</hyperlink>
+	  <id>URL31</id>
+	  </template>	  
+   </category>
+   
+   <category>
+      <pattern>*DAILY SANITY LINK*</pattern>
+      <template><srai>*DAILY SANITY URL*</srai></template>   
+   </category>
+   
+   <category>
+      <pattern>*WIKI URL*</pattern>
+      <template>Below is the URL which I Found
+	  <hyperlink href="https://wiki.tvac.bt.co.uk/" target="_blank">https://wiki.tvac.bt.co.uk/</hyperlink>
+	  <id>URL32</id>
+	  </template>	  
+   </category>
+   
+   <category>
+      <pattern>*WIKI LINK*</pattern>
+      <template><srai>*WIKI URL*</srai></template>   
+   </category>
+   
+   
+   
+   
+   
+   <category>
+		<pattern>*SPORTS LIVE URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://sport.bt.com/" target="_blank">http://sport.bt.com/</hyperlink>
+			<id>URL33</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*SPORTS VOLTEST ENVIRONMENT URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://sport.voltest.bt.com" target="_blank">http://sport.voltest.bt.com</hyperlink>
+			<id>URL34</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*SPORTS GOTHAM ENVIRONMENT URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://sport.gotham.bt.com/" target="_blank">http://sport.gotham.bt.com/</hyperlink>
+			<id>URL35</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*CMS TOOL VOLTEST URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://editors.voltest.btrcom.bt.com:62102/cse/wem/fatwire/home" target="_blank">http://editors.voltest.btrcom.bt.com:62102/cse/wem/fatwire/home</hyperlink>
+			<id>URL36</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*CMS TOOL GOTHAM URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://editors.gotham.btrcom.bt.com:61102/cse/wem/fatwire/home" target="_blank">http://editors.gotham.btrcom.bt.com:61102/cse/wem/fatwire/home</hyperlink>
+			<id>URL37</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*FORGE TOOL URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="forge-bt.stg.diva.deltatre.net/" target="_blank">forge-bt.stg.diva.deltatre.net/</hyperlink>
+			<id>URL38</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*HOCKEY APP URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="https://rink.hockeyapp.net/apps/5ecbb002324c42f1b16fbc149d69a6e8" target="_blank">https://rink.hockeyapp.net/apps/5ecbb002324c42f1b16fbc149d69a6e8</hyperlink>
+			<id>URL39</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*VOLTEST STANDARD PLAYER VERSION CHECK URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://sport.voltest.bt.com/pages/yos/p/src/bt-sport-web.min.js" target="_blank">http://sport.voltest.bt.com/pages/yos/p/src/bt-sport-web.min.js</hyperlink>
+			<id>URL40</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*GOTHAM STANDARD PLAYER VERSION CHECK URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://sport.gotham.bt.com/pages/yos/p/src/bt-sport-web.min.js" target="_blank">http://sport.gotham.bt.com/pages/yos/p/src/bt-sport-web.min.js</hyperlink>
+			<id>URL41</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*VOLTEST ENHANCED PLAYER VERSION CHECK URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="sport.voltest.bt.com/pages/diva/p/player.html" target="_blank">sport.voltest.bt.com/pages/diva/p/player.html</hyperlink>
+			<id>URL42</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*GOTHAM ENHANCED PLAYER VERSION CHECK URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="sport.gotham.bt.com/pages/diva/p/player.html" target="_blank">sport.gotham.bt.com/pages/diva/p/player.html</hyperlink>
+			<id>URL43</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*SPORT JIRA URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="https://jira.tvac.bt.co.uk/secure/RapidBoard.jspa?rapidView=422" target="_blank">https://jira.tvac.bt.co.uk/secure/RapidBoard.jspa?rapidView=422</hyperlink>
+			<id>URL44</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*DANTE JIRA URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="https://collaborate.bt.com/issues/secure/Dashboard.jspa" target="_blank">https://collaborate.bt.com/issues/secure/Dashboard.jspa</hyperlink>
+			<id>URL45</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*VOLTEST SOLR QUERY URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://sport-api-search.voltest.bt.com/search/sport/mapi?q=id:1365349776878" target="_blank">http://sport-api-search.voltest.bt.com/search/sport/mapi?q=id:1365349776878</hyperlink>
+			<id>URL46</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*GOTHAM SOLR QUERY URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://sport-api-search.gotham.bt.com/search/sport/mapi?q=id:1365349776878" target="_blank">http://sport-api-search.gotham.bt.com/search/sport/mapi?q=id:1365349776878</hyperlink>
+			<id>URL47</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*ONEVIEW URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://10.188.56.12:61010/ecommunications_enu/start.swe" target="_blank">http://10.188.56.12:61010/ecommunications_enu/start.swe</hyperlink>
+			<id>URL48</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*SITEMINDER VOLTEST URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://hwssus006.nat.bt.com:61000/ecommunications_enu_sm/start.swe?" target="_blank">http://hwssus006.nat.bt.com:61000/ecommunications_enu_sm/start.swe?</hyperlink>
+			<id>URL49</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*SITEMINDER GOTHAM URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="https://oneviewbp.nat.bt.com:61000/ecommunications_enu_sm/start.swe?" target="_blank">https://oneviewbp.nat.bt.com:61000/ecommunications_enu_sm/start.swe?</hyperlink>
+			<id>URL50</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*VOLTEST POSTER URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://voltest-online.webservices.btrcom.bt.com/appsWSmanageportaluser/services/v3/heston1235@bt.com/profile" target="_blank">http://voltest-online.webservices.btrcom.bt.com/appsWSmanageportaluser/services/v3/heston1235@bt.com/profile</hyperlink>
+			<id>URL51</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*GOTHAM POSTER URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://gotham-online.webservices.btrcom.bt.com/appsWSmanageportaluser/services/v3/bts112@bt.com/profile" target="_blank">http://gotham-online.webservices.btrcom.bt.com/appsWSmanageportaluser/services/v3/bts112@bt.com/profile</hyperlink>
+			<id>URL52</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*VOLTEST USER LOGIN ID CREATION URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://voltest.bt.com/appsprofile/registration/signup.do" target="_blank">http://voltest.bt.com/appsprofile/registration/signup.do</hyperlink>
+			<id>URL53</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*GOTHAM USER LOGIN ID CREATION URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href="http://gotham.bt.com/appsprofile/registration/signup.do" target="_blank">http://gotham.bt.com/appsprofile/registration/signup.do</hyperlink>
+			<id>URL54</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*BTS HOME PAGE FEED PROD URL*</pattern>
+		<template>Below is the URL which I Found
+			<hyperlink href=" https://api-search.sport.bt.com/search/sport/mapi?q=channel:home&fq=subtype:BTMobileFeed&btsapp=home" target="_blank"> https://api-search.sport.bt.com/search/sport/mapi?q=channel:home&fq=subtype:BTMobileFeed&btsapp=home</hyperlink>
+			<id>URL55</id>
+		</template> 
+   </category>
+   
+   <category>
+		<pattern>*BTS HOME PAGE FEED VOLTEST URL*</pattern>
+		<template>Below is the URL which I Found
+
+			<hyperlink href=" http://sport-api-search.voltest.bt.com/search/sport/mapi?q=channel:home&fq=subtype:BTMobileFeed&sort=updateddate%20desc" target="_blank"> http://sport-api-search.voltest.bt.com/search/sport/mapi?q=channel:home&fq=subtype:BTMobileFeed&sort=updateddate%20desc</hyperlink>
+			<id>URL56</id>
+		</template> 
+   </category>
+   
+ </aiml>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+		<pattern>*YUNTUM*</pattern>
+         <template>Yuntum: Sanely Insane click <a href="../../yuntum.jpg" target="_blank" ><img src="../../yuntum.jpg" alt="Yuntum" height="80" width="100"/></a>
+			<id>TEST1</id>
+		</template>
+    </category>
+  </aiml>

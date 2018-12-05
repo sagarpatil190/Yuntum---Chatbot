@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>	
+	<category>
+		<pattern>*BHASKAR GHOSH*</pattern>
+		<template>It’s always good to know our leaders,<break/>Bhaskar Ghosh is the Group chief executive<break/>for the Accenture Technology Services.<break/>To know more about him visit people page<break/><hyperlink href="https://people.accenture.com/People/user/bhaskar.ghosh" target="_blank">BHASKAR GHOSH</hyperlink><break/>
+			
+			<id>ATCL1</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*ACCENTURE CHAIRMAN INDIA*</pattern>
+		<template>It’s always good to know our leaders,<break/>
+				  Rekha M Menon is the Chairman and Senior Managing Director<break/>
+				  for the Accenture in India. To know more about her<break/> 
+				  visit people page <hyperlink href="https://people.accenture.com/People/user/rekha.m.menon" target="_blank">https://people.accenture.com/People/user/rekha.m.menon</hyperlink><break/>
+		
+			<id>ATCL2</id>
+		
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*MOHAN SEKHAR*</pattern>
+		<template>It’s always good to know our leaders,<break/>
+				  Mohan Sekhar is the Business lead for the Advanced<break/> 
+				  Technology Centers in India (ATC). To know more about him<break/> 
+				  visit people page <hyperlink href="https://people.accenture.com/People/user/mohan.sekhar" target="_blank">https://people.accenture.com/People/user/mohan.sekhar</hyperlink>
+	    
+			<id>ATCL3</id>
+		
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*AVANADE GDN LEAD*</pattern>
+		<template>
+				It’s always good to know our leaders,<break/>
+				  Raghavan Iyer is the Avanade GDN Lead,<break/>
+				  Employee Experience and Innovation Council Lead<break/>
+				  for the Advanced Technology Centers in India (ATC).<break/>
+				  To know more about him visit people page <hyperlink href="https://people.accenture.com/People/user/raghavan.iyer" target="_blank">https://people.accenture.com/People/user/raghavan.iyer</hyperlink>
+		
+			<id>ATCL4</id>
+		
+		</template>
+	</category>	
+</aiml>

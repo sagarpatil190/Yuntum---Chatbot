@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>	
+	<category>
+		<pattern>*TALENT SEGMENT*</pattern>
+		<template>
+				  Hey, I’d know this any day! Here you go,<break/>
+				  You belong to Software Engineering Talent segment<break/>
+				  in Accenture, let me simplify this for you…<break/>
+				  Talent Segment is nothing but a grouping of similar<break/> 
+				  skills and types of work. It is an easy way of defining<break/> 
+				  what you do and also helps you identify and explore open staffing,<break/> 
+				  transition opportunities and mentors within Accenture.<break/> 
+				  All roles are aligned to a corresponding Talent Segment.<break/> 
+				  Here are few examples of common Talent Segments you might be<break/> 
+				  familiar with  : Software Engineering, Business and Systems<break/> 
+				  Integration etc. Lovely day for a walk<break/>
+			
+			<id>CDEV1</id>
+			
+		</template>
+	</category>			
+	
+	<category>
+		<pattern>*PROBATION PERIOD IS CONFIRMED*</pattern>
+		<template>
+				  The organization does not issue a probation confirmation mail<break/>
+				  or letter at the end of the probation period. Unless otherwise<break/> 
+				  communicated by your Supervisor/HR Representative, your employment<break/>
+				  is considered to be confirmed post completion of 6 months.<break/>
+				  
+			<id>CDEV2</id>
+				  
+		</template>
+	</category>
+
+	<category>
+		<pattern>*HOW WILL MY CAREER EXPERIENCE CHANGE WITH INTRODUCTION OF TECHNOLOGY CAREER MODEL*</pattern>
+		<template>
+				  The Accenture Technology Career Model supports the intent of Performance<break/>
+				  Achievement and pivot to the New IT with its unique initiatives to enhance<break/>
+				  your career experience:<break/>
+				  
+				  a) Redefined Roles will have greater market relevance and a description that<break/>
+					 accurately describes the contribution each one of you is making in your role<break/>
+					 
+				  b) Greater recognition of client relevant expertise and emerging skills that<break/>
+				     you are building in new areas of work within the role specialization and<break/>
+					 multi-skilling framework, offering personalized learning opportunities<break/>
+					 
+				  c) Provide inspiring career opportunities from delivery to architecting <break/>
+					 to innovation<break/>
+
+				  d) Enable career growth that translates into faster career progression for<break/>
+     				 high performers<break/>
+
+				  e) Offer rewards centered on roles and the unique skills sets and continue<break/>
+					 to be aligned to the job market<break/> 
+					 
+			<id>CDEV3</id>
+					 
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>*WHAT IS MY NEW TECHNOLOGY ROLE UNDER TECHNOLOGY CAREER MODEL*</pattern>
+		<template>
+				  Your technology career role after great deal of thought was recommended<break/>
+				  by the business Leaders who know you best, based on your skills, experience,<break/>
+				  and the work you do every day. DCN for T, India leadership approved all the<break/>
+				  roles being recommended for employees. However, if you want to understand more<break/>
+				  about the role you have been aligned to, you can reach out to your supervisor<break/>
+				  to understand more details around this.<break/>
+				  
+			<id>CDEV4</id>
+
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*HOW WOULD TECHNOLOGY ROLE RELATED WITH MY KNOWLEDGE AND SKILLS*</pattern>
+		<template>
+				Your new role is based on your existing capabilities and will not alter your day<break/>
+				to day work. Technology Career roles are linked to Role Specialization within the<break/> 
+				Multi-skilling framework. This will enable you to deepen current level of expertise,<break/>
+				increasing certification related to your Role Specialization and in turn build a set<break/>
+				of complementary skills. The personalized learning opportunities will enable you to<break/>
+				stretch into new technologies and build a broad range of skills. Rotation to the<break/>
+				NEW IT isn’t about throwing away any ‘old’ technology skills and starting afresh,<break/>
+				it’s about building on existing skills that will bring innovative, new ideas and<break/>
+				opportunities to our clients. Everyone in Technology is expected to commit to their<break/>
+				own continual learning and development to help accelerate our pivot to the New IT<break/>
+				
+			<id>CDEV5</id>
+				
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*HOW MANY PROFICIENCY LEVELS ARE THERE IN MYCOMPETENCY*</pattern>
+		<template>
+				Proficiency Scale covers the full range of expression of the competency. It indicates<break/>
+				the information on the criteria for a particular Proficiency Level. There are 5 proficiency<break/>
+				levels defined globally - P0 to P4, sample is given below:<break/>
+				
+				Expert (P4)-I can architect systems, understands best practice in technology/ industry.<break/>
+				I am widely recognized as a deep expert, active in account planning for the skill area/offering,<break/>
+				have developed IP, and may be externally recognized (e.g., published, speaker at conferences).<break/>
+				Typical skill usage: 5+ years in multiple roles or contexts. Advanced (P3)-I have broad coverage<break/>
+				of technical skills, able to design end-to-end applications. I have also shaped, defended and delivered<break/>
+				complex solutions. Because of my experience, I am often asked to be a subject matter expert.<break/> 
+				I have built expertise in others. Typical skill usage: 4+ years in multiple roles or contexts.<break/>
+				
+				Proficient (P2)-I have good understanding of technology. Good detailed designer with some technical<break/>
+				design abilities. Worked independently on more complex tasks and resolved problems and exceptions.<break/>
+				I have escalated issues to leadership as appropriate. I have supervised and coached others. Typical<break/> 
+				skill usage: 2 – 4 years in multiple roles or contexts.<break/>
+
+				Novice (P1)-I am a competent programmer in specific area and beginning to develop detailed design<break/> 
+				skills. Have worked independently on standard tasks and received input when needed on more<break/> 
+				complicated tasks or exceptions. I have coached or supervised novices on standard tasks.<break/>
+				Typical skill usage: 1 – 2 years in multiple roles or contexts.<break/>
+
+				Trained (P0)-I have foundational skills. Introductory level, understands language syntax, can<break/>
+				code given detailed direction. Have performed standard tasks with regular feedback.<break/>
+				Typical skill usage: less than 1 year.<break/>
+				
+			<id>CDEV6</id>
+
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WHEN SHOULD A NEW JOINER TAKE THE ASSESSMENT*</pattern>
+		<template>
+			All new joiners who are SE and above career levels can start<break/>
+			taking assessment any time after joining.<break/>
+			For the first time the skill details would be populated on<break/>
+			myCompetency tool as recorded at the time of recruitment.<break/> 
+			If there are any changes, you can update the skills any time<break/>
+			through the year and then proceed to take assessment<break/>
+			
+		<id>CDEV7</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*WHAT IS THE ASSESSMENT CRITERIA FOR ADVANCED ASSESSMENT*</pattern>
+		<template>
+			The objective of advanced assessment is to evaluate the PRACTICAL APPLICATION<break/>
+			knowledge on the chosen skill. The outcome of myCompetency provides YOU with<break/>
+			baseline to define YOUR specialization and learning path.<break/>
+
+			The assessment aims to evaluate the following:<break/>
+
+			Technology Skills:<break/>
+
+			• Understanding of the problem in context of the domain area (not just skill)<break/>
+
+			• Application of best / emerging practices to the solution in context of the technology/domains<break/>
+
+			• Understanding of implications across performance/ scalability/ security/ maintainability etc.<break/>
+
+			• Understanding of Design patterns/ coding standards etc.<break/>
+
+			• Provides accurate, robust and comprehensive solution for the given problem statement<break/>
+
+			Industry skills:<break/>
+
+			• Done 2-3 end to end implementations/ transformations for client engagements within<break/>
+			  the industry skill identified<break/>
+
+			• Built industry assets/solutions relevant to our clients<break/>
+
+			• Supported industry related sales (deal origination, RFP-creation of proposal<break/>
+			  and solution shaping and oral support)<break/>
+
+			• Completed Advanced level certification (wherever applicable)<break/>
+
+			• Contributed to external Key Publications / Websites relevant to industry Practice<break/>
+			  in the form of white papers or articles. Participated in external/global internal industry events<break/>
+
+			• Client co innovation stories, co innovation workshops<break/> 
+			
+		<id>CDEV8</id>
+			
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*MY SKILLS ARE ELIGIBLE FOR ADVANCED ASSESSMENT*</pattern>
+		<template>
+			You will receive email notification for skills that are eligible<break/>
+			for advanced assessment. The assessment may include one or more<break/>
+			components and the details of which will be made available in the<break/>
+			resources section of myCompetency portal. It will also be displayed<break/>
+			on the skill card on myCompetency portal for each skill that qualifies<break/>
+			for advanced assessment.<break/>
+			
+		<id>CDEV9</id>
+
+		</template>
+	</category>	
+</aiml> 							 	

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+<category>
+	<pattern>*LOG IN * SERVERS*</pattern>
+		<template>
+		You can access all the server using our boat id as BT has a central LDAP based authentication system.
+		 <id>en1</id>
+        </template>  
+</category> 
+   
+ <category>
+   <pattern>* WHAT IS WEBLOGIC *</pattern>
+		<template>
+		WebLogic is middleware technology which hosts application.
+		 <id>en2</id>
+        </template>  
+</category> 
+
+ <category>
+   <pattern>* WHAT IS VSID, BTWSID *</pattern>
+		<template>
+		VSID and BTWSID are BT TV user identifiers.
+		 <id>en3</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* THE BASIC DIFFERENT BETWEEN SYSTEST AND E2E TEST ENVIRONMENTS *</pattern>
+		<template>
+		 Systest is done for only API based testing, while E2E tests the entire service journey.
+		 <id>en4</id>
+        </template>  
+</category>
+
+
+<category>
+   <pattern>* HOW DO WE PERFORM INCIDENT MANAGEMENT IN ENVIRONMENT TEAM *</pattern>
+		<template>
+		 We have a ticketing tool called JIRA from where all the incident management is done.
+		 <id>en5</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* CHANGE REQUEST MECHANISM IN ENVIRONMENT TEAM *</pattern>
+		<template>
+		 It is a pre-prod environment hence no proper change request mechanism is in place. A JIRA ticket is enough for making any kind of change request.
+		 <id>en6</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* JENKINS *</pattern>
+		<template>
+		 Jenkins is an open source automation server written in Java. Jenkins helps to automate the non-human part of the software development process with continuous integration and facilitating technical aspects of continuous delivery.
+		 <id>en7</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* GIT *</pattern>
+		<template>
+		 Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. 
+		 <id>en8</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* NEXUS *</pattern>
+		<template>
+		 Nexus is a central repository where we save all the builds.
+		 <id>en9</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* LINUX VERSION  *</pattern>
+		<template>
+		 We are using OEL 6.8 Linux version.
+		 <id>en10</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* APPLICATION SERVER  *</pattern>
+		<template>
+		 We are using Oracle WebLogic v12.1.1.3 Application server.
+		 <id>en11</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* WEBLOGIC VERSION *</pattern>
+		<template>
+		 We are using OEL 6.8 Linux version.
+		 <id>en12</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* DEVELOPMENT WORK IN ENVIRONMENT TEAM *</pattern>
+		<template>
+		 Environment team develops various shell scripts for OS based automations and server health monitoring.
+		 <id>en13</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* SUPERVISOR OF ENVIRONMENT TEAM *</pattern>
+		<template>
+		 Bhisham Malani is supervisor of Environment team.
+		 <id>en14</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* DATABASE ARE WE USING IN BT TV *</pattern>
+		<template>
+		 BT-TV uses Oracle DB 11g database.
+		 <id>en15</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* LOAD BALANCING MECHANISM FOR APPLICATION IN BT TV *</pattern>
+		<template>
+		 Stm (stringray traffic manager) is used where all the load balancing rules are implemented. 
+		 <id>en16</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* RAC SETUP FOR DB  *</pattern>
+		<template>
+		 No, we have stand-alone DB server.
+		 <id>en17</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* WHAT IS STM? *</pattern>
+		<template>
+		 STM stands for Stringray Traffic Manager which is a traffic manager helps in routing http and https calls to different servers. Also we can monitor request and response calls made to servers.
+		 <id>en18</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>*VSID*</pattern>
+		<template>
+		 vSID stands for Vision Service ID which acts as a primary index for every customer.
+		 <id>en19</id>
+        </template>  
+</category>
+
+
+
+<category>
+   <pattern>* ISTE TICKET *</pattern>
+		<template>
+		 ISTE stand for IP TV Test Execution support where issues are raised to B and I team to support testing.
+		 <id>en21</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* BOAT ID *</pattern>
+		<template>
+		 It’s an user ID ,which enable the individuals to access the server and other applications resources of BT.
+		 <id>en22</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* WHAT IS AN APPLICATION SERVER *</pattern>
+		<template>
+		 It’s a Software framework that facilitates the web application to run on it.
+		 <id>en23</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* TRIAGE CALL *</pattern>
+		<template>
+		 Triage call is to define severity and priority  of new defects ,which is conducted by testing teams.(audiences-DEV,Design,Infra,Test team, Environment team).
+		 <id>en24</id>
+        </template>  
+</category>
+
+<category>
+   <pattern>* WHAT ENVIRONMENT TEAM DOES *</pattern>
+		<template>
+		 Environment team is responsible for following activities <break/>
+		 - To facilitate smooth testing performance <break/>
+		 - To carry out Deployment and troubleshooting activities. <break/>
+		 <id>en25</id>
+		 
+        </template>  
+</category>
+
+</aiml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
